@@ -1,0 +1,3 @@
+24 sierpnia 2018 - wersja 0.0.1
+Rozpoczęcie pracy nad własną bibliteką scss/css w celu późniejszego wykorzystania jej w kolejnych producjach Niewiernych Psów.
+	Utworzenie nowych plików oraz wstępne przeniesienie do nich odpowiednich linii kodu.
