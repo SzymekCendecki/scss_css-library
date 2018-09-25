@@ -10,4 +10,4 @@
  użyte technologie:
  SCSS, CSS
  
- #documentation only in polish language for now
+ # documentation only in polish language for now
