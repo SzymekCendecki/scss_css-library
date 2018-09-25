@@ -1,3 +1,8 @@
 24 sierpnia 2018 - wersja 0.0.1
 Rozpoczęcie pracy nad własną bibliteką scss/css w celu późniejszego wykorzystania jej w kolejnych producjach Niewiernych Psów.
-	Utworzenie nowych plików oraz wstępne przeniesienie do nich odpowiednich linii kodu.
+	Utworzenie nowych plików: backgroundColors.scss, marginLeft.scss, marginTop.scss, other.scss, textColors.scss, textShadow.scss, width.scss.
+Wstępne przeniesienie do powyższych plików odpowiednich linii kodu.
+
+25 sierpnia 2018 - wersja 0.0.11
+Utworzona dwa nowe pliki documentation.txt (na razie pusty) - dokumentacja, opisująca nazwy (i działanie?) poszczególnych stylów.
+	Plik underline.scss - dla podkreśleń tekstu oraz przeniesiono do niego odpowiedni fragment kodu z main.scss.
