@@ -6,3 +6,12 @@ Wstępne przeniesienie do powyższych plików odpowiednich linii kodu.
 25 sierpnia 2018 - wersja 0.0.11
 Utworzona dwa nowe pliki documentation.txt (na razie pusty) - dokumentacja, opisująca nazwy (i działanie?) poszczególnych stylów.
 	Plik underline.scss - dla podkreśleń tekstu oraz przeniesiono do niego odpowiedni fragment kodu z main.scss.
+
+25 sierpnia 2018 - wersja 0.0.12
+Połączenie dwóch plików marginLeft.scss i marginTop.scss w jeden, margins.scss_css.
+	Utworzenie pliku fontSize.scss, paddings.scss oraz przeniesienie do nich odpowiedniego kodu.
+Utworzenie pliku shadows.scss dla cieni tekstu oraz przycisków.
+	Usunięcie pliku textShadow.scss.
+Dodano plik: grids.scss i buttons.scss, oraz przeniesiono do nich odpowiedni fragment kodu.
+	Usunięto zbędny na razie kod z main.scss.
+Rozpoczęto pracę nad dokumentacją opisującą co znajduje się w bibliotece (na razie tylko wersja polska).

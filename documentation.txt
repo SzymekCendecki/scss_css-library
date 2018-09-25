@@ -1,3 +1,12 @@
-24 sierpnia 2018 - wersja 0.0.1
-Rozpoczęcie pracy nad własną bibliteką scss/css w celu późniejszego wykorzystania jej w kolejnych producjach Niewiernych Psów.
-	Utworzenie nowych plików oraz wstępne przeniesienie do nich odpowiednich linii kodu.
+polish version
+
+<---------------------                  KOLOR TŁA                  -------------------------------------------------->
+Styl dla koloru tła składa się z dwóch części: skrótu nazwy bckg (background) oraz nazwy koloru.
+
+przykład
+
+W poniższym przykładzie kolor tła zmieni kolor na zielony.
+
+.bckgGreen{
+	background-color: green;
+}

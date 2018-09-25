@@ -1,63 +1,16 @@
 // importy z pliów zewnętrznych
-@import "width";
-@import "textColors";
-@import "marginLeft";
-@import "marginTop";
 @import "other";
+@import "buttons";
+@import "fontSize";
+@import "grids";
+@import "margins";
+@import "paddings";
+@import "shadows";
+@import "textColors";
 @import "underline";
+@import "width";
 
 //reset
 *{ margin: 0; padding: 0; }
 
 html, body { width: 100%; height: 100%; }
-
-//grid
-.row:before, .row:after{ content: ""; display: table; clear: both; }
-[class*='col-']{ float: left; min-height: 1px; width: 100%/12; padding: 12px; }
-@for $i from 1 through 12 { .col-#{$i} { width: (100%/12)*$i; } }
-
-//wysokość nagłówka i stopki
-header, footer{ height: 5vh; }
-
-//wysokość nawigacji, części głównej i alertowej
-nav, #mainPart, #alerts{ height: 78vh; }
-
-//style dla głównego kontenera zawierającego header, nav, mainPart, alert i footer
-.grid-display{
-  width: 1300px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap;
-}
-
-//style dla nawigacji i nagłówka
-.flexForBtns{
-  display: flex; flex-wrap: wrap; justify-content: space-around; align-content: flex-start;
-}
-
-//podstawowy styl dla przycisku
-.basicBtn{
-  width: 40%; height: 7%; font-weight: bold; font-size: 1.05em; text-shadow: 1px 1px white;
-}
-
-//tekst średniowieczny
-.medievalText{ font-family: 'MedievalSharp', cursive; }
-
-//podstawowy styl dla tekstu paragrafu
-.basicText{
-  text-indent: 3%; font-weight: bold; margin-top: 2%; font-size: 1.3em; text-shadow: 1px 1px white;
-}
-
-//wielkość liter w em' ach
-.fontSize08em{ font-size: 0.8em; } .fontSize09em{ font-size: 0.9em; }
-.fontSize1em{ font-size: 1em; } .fontSize11em{ font-size: 1.1em; }
-.fontSize12em{ font-size: 1.2em; } .fontSize13em{ font-size: 1.3em; }
-
-//paddingi w procentach od góry i od dołu
-.paddingUpDown1{ padding: 1% 0 1% 0; }
-
-//cień dla tekstu
-.whiteTextShadow11{ text-shadow: 1px 1px white; }
-
-//cień dla przycisku
-.shadowForBtn{
-  box-shadow: 0 1px 0 #606060, 0 2px 0 #606060, 0 3px 0 #838383, 0 4px 0 #838383, 0 5px 0 #a6a6a6,
-   0 5px 0 #a6a6a6, 0 6px 0 #ededed, 0 7px 0 #ededed;
-}

@@ -1,0 +1,26 @@
+//grid
+.row:before, .row:after{
+  content: "";
+  display: table;
+  clear: both; }
+
+[class*='col-']{
+  float: left;
+  min-height: 1px;
+  width: 100%/12;
+  padding: 12px; }
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: (100%/12)*$i;
+  }
+}
+//style dla głównego kontenera zawierającego header, nav, mainPart, alert i footer
+.grid-display{
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:
+  space-between;
+  flex-wrap: wrap;
+}
