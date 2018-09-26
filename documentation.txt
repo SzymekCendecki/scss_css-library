@@ -1,6 +1,6 @@
 polish version
 
-<---------------------                  KOLOR TŁA                  -------------------------------------------------->
+<-----------------------------      kolor tła              -------------------------------------------------->
 Styl dla koloru tła składa się z dwóch części: skrótu nazwy bckg (background) oraz nazwy koloru.
 
 przykład
@@ -12,7 +12,7 @@ W poniższym przykładzie kolor tła zmieni kolor na zielony.
 }
 
 
-<-----------------------------------      PRZYCISKI  ---------------------------------------------------------------->
+<-----------------------------------      przyciski  ---------------------------------------------------------------->
 Styl dla przycisków składa się z dwóch części. Pierwszej (np.basic), która ma dwie funkcje: określa rozdzielczość oraz w rozmiar przycisku. Drugi (Btn) to skrót od przycisku (button).
 
 Przedrostek:
@@ -20,7 +20,9 @@ Przedrostek:
 - basic - rozdzielczość 1366x768 - podstawowy przycisk dla tej rozdzielczości
 - small - rozdzielczość 1366x768 - pomniejszony przycisk dla tej rozdzielczości
 
-style przycisków dla rozdzielczości 1366x768
+
+przykład
+styl przycisków dla rozdzielczości 1366x768
 .basicBtn{
   width: 40%;
 	height: 7%;
@@ -28,3 +30,118 @@ style przycisków dla rozdzielczości 1366x768
 	font-size: 1.05em;
 	text-shadow: 1px 1px white;
 }
+
+<---------------------------------   wielkość liter w em' ach ----------------------------------------------------->
+Nazwa stylu dla wielkości liter składa się z  trzech części. Pierwszą cześcią nazwy stylu określa do czego służy ten styl, drugi człon określa wielkość tektu. Trzeci człon zaś określa jednostkę w jakich jest dana wielkość.
+
+przykład
+.fontSize08em{
+	font-size: 0.8em;
+}
+
+
+<------------------------------------ grids ---------------------------------------------------------------->
+Styl ".grid-display" (dla głównego kontenera) ma sztywne ustawienie zawartości pokazane w przykładzie.
+
+przykład
+.grid-display{
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content:
+  space-between;
+  flex-wrap: wrap;
+}
+
+można również ustawić szerokość np div'a za pomocą stylu .col-numer. Pod numerem powinna być liczba od 1 do 12.
+
+przykład
+
+<div class="col-1"></div> - oznacza iż szerokość będzie wynosić 1/12 szerokości (głównego grid?)
+
+zaś
+
+<div class="col-12"></div> - oznacza iż szerokość będzie wynosić 100% szerokości (głównego grid?)
+
+
+<--------------------------------------- margins  --------------------------------------------------------------->
+Styl margins składa się z dwóch członów. Tekstowego i 4 cyfr. Tekstowa część oznacza, czego dotyczy styl. Cyfry oznaczają wielkość tego marginesu.
+
+pierwsza cyfra to margines liczony od góry (top)
+druga cyfra to margines liczony od prawej strony (right)
+trzecia cyfra to margines liczony od dołu (bottom)
+czwarta cyfra to margines liczony od lewej
+
+Litera "p" na końcu oznacza, iż wielkość marginesu liczona jest w procentach (skrót od percent/procent (english/polski))
+Litera "v" na końcu oznacza, iż wielkość marginesu liczona jest w vh
+Litery "px" na końcu oznaczają, iż podana wielkość jest w pikselach
+
+przykład
+ten przykład ustawi margines od lewej strony o 3 procenty
+
+.margins0003p{
+	margin: 0 0 0 3%;
+}
+
+jeżeli margines będzie miał wartość dwuliczbową (lub więcej), wtedy odziela się ją tzw. "podłogą" _
+
+przykład
+ten przykład ustawi margines od lewej strony o 10 procent
+
+.margins000_10p{
+	margin-left: 10%;
+}
+
+podobnie będzie jeżeli, będziemy chcieli ustawić margines od góry
+przykłady
+.margins5000p{
+	margin-top: 5%;
+}
+
+.margins10_000p{
+	margin-top: 10%;
+}
+
+
+<----------------------- tekst: wycentrowany, pogrubiony, normalny, pochyły   ----------------------------->
+
+Style te składają się z dwóch części. Pierwsza określa co robi, druga określa czeo dotyczy.
+
+.centerText - centruje tekstu
+.boldText - pogrubia tekst
+.normalText - tekst normalnej grubości
+.italic - tekst pochylony (kursywa)
+
+przykłady
+.centerText{
+	text-align: center;
+}
+.italic {
+	font-style: italic;
+}
+
+<----------------------------------------  paddings ----------------------------------------------->
+konstrukcja oraz użycie tych styli taka sam jak marginesów, tylko zamiast margins jest paddings.
+
+przykład
+.paddings1010p{
+	padding: 1% 0 1% 0;
+}
+
+<----------------------------------------- cienie -------------------------------------------------->
+
+Style dla cieni dzielą się na dwie kategorie o takiej samej konstrukcji.
+
+Pierwszą kategorią są cienie dla elementów typu div, p itd.
+Drugą kategorią są cienie dla tekstu.
+
+obie składają się z trzech części:
+pierwsza określa czego dotyczy styl (shadowBox dla div'ów, paragrafów itd. oraz shadowText - dla tekstu)
+
+druga określa wartości liczbowe (w pikselach):
+	pierwsza liczba określa przesunięcie w poziomie (również wartości ujemne)
+	druga liczba określa przesunięcie w pionie (również wartości ujemne)
+	trzecia liczba określa rozmycie cienia
+jeżeli nie ma trzeciej liczby, to po prostu nie ma rozmycia cienia. zasada stosowania liczb w nazwie jest taka sama jak dla margins i paddings
+
+trzecia określa kolor użytego cienia

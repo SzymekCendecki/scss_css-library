@@ -17,4 +17,8 @@ Dodano plik: grids.scss i buttons.scss, oraz przeniesiono do nich odpowiedni fra
 Rozpoczęto pracę nad dokumentacją opisującą co znajduje się w bibliotece (na razie tylko wersja polska).
 
 25 sierpnia 2018
-Uzupełnianie dokumentacji technicznej
+Uzupełnianie dokumentacji technicznej.
+
+26 sierpnia 2018 - wersja 0.0.13
+Uzupełnianie dokumentacji technicznej.
+	Poprawki w nazewnictwie styli, w pliku margins.scss, shadows.scss.
