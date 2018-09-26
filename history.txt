@@ -15,3 +15,6 @@ Utworzenie pliku shadows.scss dla cieni tekstu oraz przycisków.
 Dodano plik: grids.scss i buttons.scss, oraz przeniesiono do nich odpowiedni fragment kodu.
 	Usunięto zbędny na razie kod z main.scss.
 Rozpoczęto pracę nad dokumentacją opisującą co znajduje się w bibliotece (na razie tylko wersja polska).
+
+25 sierpnia 2018
+Uzupełnianie dokumentacji technicznej
