@@ -73,7 +73,7 @@ trzecia cyfra to margines liczony od dołu (bottom)
 czwarta cyfra to margines liczony od lewej
 
 Litera "p" na końcu oznacza, iż wielkość marginesu liczona jest w procentach (skrót od percent/procent (english/polski))
-Litera "v" na końcu oznacza, iż wielkość marginesu liczona jest w vh
+Litera "vh" na końcu oznacza, iż wielkość marginesu liczona jest w vh (viewport)
 Litery "px" na końcu oznaczają, iż podana wielkość jest w pikselach
 
 przykład
@@ -145,3 +145,28 @@ druga określa wartości liczbowe (w pikselach):
 jeżeli nie ma trzeciej liczby, to po prostu nie ma rozmycia cienia. zasada stosowania liczb w nazwie jest taka sama jak dla margins i paddings
 
 trzecia określa kolor użytego cienia
+
+
+<---------------------------------------------  kolor tekstu ------------------------------------------------------>
+Nazwa stylu składa się z dwóch części. Pierwsza część (text) określa do czego styl jest pzeznaczony, druga część określa kolor tekstu.
+
+przykład
+.textRed{
+	color: red;
+}
+
+<--------------------------------------------  podkreślenia  ----------------------------------------------------->
+Podobnie jak z kolorem tekstu. Pierwsza część określa, że styl jest podkreśleniem, druga oznacza kolor.
+
+Przykład
+.underlineGold{
+  text-decoration: underline;
+  text-decoration-color: gold;
+}
+
+<--------------------------------------------- szerokość ---------------------------------------------------->
+nazwa stylu składa się z trzech części. Pierwsza część składa się z nazwy właściwej stylu, druga część określa wartość liczbową szerokości, trzecia określa jednostkę szerokości.
+
+p - oznacza procenty
+px - oznacza piksele
+vw - wartość podana jest w jednostkach vw (viewport)

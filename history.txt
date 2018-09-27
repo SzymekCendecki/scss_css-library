@@ -22,3 +22,7 @@ Uzupełnianie dokumentacji technicznej.
 26 sierpnia 2018 - wersja 0.0.13
 Uzupełnianie dokumentacji technicznej.
 	Poprawki w nazewnictwie styli, w pliku margins.scss, shadows.scss.
+
+27 sierpnia 2018 - wersja 0.0.14
+Uzupełnianie dokumentacji technicznej.
+	Poprawki w nazwach styli.
