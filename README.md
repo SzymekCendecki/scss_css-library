@@ -9,5 +9,5 @@
  Biblioteka ta powstaje na potrzeby twórczości Niewiernych Psów. Inspirowana jest różnymi, podobnymi do niej bibliotekami typu Bootstrap.
  użyte technologie:
  SCSS, CSS
- 
+
  # documentation only in polish language for now

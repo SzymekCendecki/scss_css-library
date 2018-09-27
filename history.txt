@@ -26,3 +26,4 @@ Uzupełnianie dokumentacji technicznej.
 27 sierpnia 2018 - wersja 0.0.14
 Uzupełnianie dokumentacji technicznej.
 	Poprawki w nazwach styli.
+Dodanie 32 kolorów tła w backgroundColors.scss.
