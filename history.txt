@@ -28,5 +28,8 @@ Uzupełnianie dokumentacji technicznej.
 	Poprawki w nazwach styli.
 Dodanie kolorów tła w backgroundColors.scss.
 
-28 sierpnia 2018 -wersja 0.0.15
+28 sierpnia 2018 - wersja 0.0.15
+Dodanie kolorów tła w backgroundColors.scss.
+
+29 sierpnia 2018 - wersja 0.0.16
 Dodanie kolorów tła w backgroundColors.scss.
