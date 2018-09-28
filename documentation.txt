@@ -1,7 +1,7 @@
 polish version
 
 <-----------------------------      kolor tła              -------------------------------------------------->
-Styl dla koloru tła składa się z dwóch części: skrótu nazwy bckg (background) oraz nazwy koloru.
+Styl dla koloru tła składa się z dwóch części: skrótu nazwy bckg (background) oraz nazwy koloru. Prawie wszystkie kolory zapisane są w HEX'ach.
 
 przykład
 
