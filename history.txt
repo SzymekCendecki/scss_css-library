@@ -33,3 +33,7 @@ Dodanie kolorów tła w backgroundColors.scss.
 
 29 sierpnia 2018 - wersja 0.0.16
 Dodanie kolorów tła w backgroundColors.scss.
+
+29 sierpnia 2018 - wersja 0.0.17
+	Dodanie kolorów tekstu w textColors.scss.
+Poprawki literówek.

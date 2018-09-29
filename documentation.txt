@@ -11,6 +11,18 @@ W poniższym przykładzie kolor tła zmieni kolor na zielony.
 	background-color: green;
 }
 
+lista styli, które można zastosować:
+.bckgGreen, .bckgRed, .bckgBlue, .bckgYellow, .bckgBlack, .bckgWhite, .bckgAliceBlue, .bckgAntiqueWhite, .bckgAquamarine,
+.bckgAzure, .bckgBeige, .bckgBisque, .bckgBlanchedalmond, .bckgViolet, .bckgBrown, .bckgBurlywood, .bckgCadetBlue,
+.bckgChartreuse, .bckgChocolate, .bckgCoral, .bckgCornFlowerBlue, .bckgCornSilk, .bckgCrimson, .bckgCyan, .bckgDarkBlue,
+.bckgDarkCyan, .bckgDarkGoldenRod, .bckgDarkGray, .bckgDarkGreen, .bckgDarkKhaki, .bckgDarkMagenta, .bckgDarkOliveGreen,
+.bckgDarkOrange, .bckgDarkOrchid, .bckgDarkRed, .bckgDarkSalmon, .bckgDarkSeaGreen, .bckgDarkSlateBlue, .bckgDarkSlateGray,
+.bckgDarkTurquoise, .bckgDarkViolet, .bckgDeepPink, .bckgDeepSkyBlue, .bckgDimgray, .bckgDodgerBlue, .bckgFireBrick,
+.bckgFloralWhite, .bckgForestGreen, .bckgGainsboro, .bckgGhostWhite, .bckgGold, .bckgGoldenRod, .bckgGreenYellow, .bckgGrey, .bckgHoneyDew, .bckgHotPink, .bckgIndianRed, .bckgIndigo, .bckgIvory, .bckgKhaki, .bckgLavender, .bckgLavenderBlush, .bckgLawnGreen, .bckgLemonChiffon, .bckgLightBlue, .bckgLightCoral, .bckgLighCcyan, .bckgLightGoldenrodYellow, .bckgLightGray, .bckgLightGreen, .bckgLightGrey, .bckgLightpPink, .bckgLightSalmon, .bckgLightSeaGreen, .bckgLightSkyBlue, .bckgLightsLateGray, .bckgLightSteelBlue, .bckgLightYellow, .bckgLimeGreen, .bckgLinen, .bckgMagenta, .bckgMediumAquamarine, .bckgMediumBlue, .bckgMediumOrchid, .bckgMediumPurple, .bckgMediumSeaGreen, .bckgMediumSlateBlue, .bckgMediumSpringGreen, .bckgMediumTurquoise, .bckgMediumVioletred, .bckgMidnightBlue, .bckgMintCream, .bckgMistyRose, .bckgMoccasin, .bckgNavajoWhite, .bckgOldLace, .bckgOliveDrab, .bckgOrangeRed, .bckgOrchid, .bckgPaleGoldenRod, .bckgPaleGreen, .bckgPaleTurquoise, .bckgPaleVioletRed, .bckgPapayaWhip, .bckgPeachPuff, .bckgPeru, .bckgPink, .bckgPlum, .bckgPowderBlue, .bckgRosyBrown, .bckgRoyalBlue, .bckgSaddleBrown, .bckgSalmon, .bckgSandyBrown, .bckgSeaGreen, .bckgSeaShell, .bckgSienna, .bckgSkyBlue, .bckgSlateBlue, .bckgSlateGray, .bckgSnow, .bckgSpringGreen, .bckgSteelBlue, .bckgTan, .bckgThistle, .bckgTomato, .bckgTurquoise, .bckgViolet, .bckgWheat, .bckgWhiteSmoke, .bckgYellowGreen
+
+kolory oraz ich nazwy pobrano ze strony:
+http://www.kurshtml.edu.pl/css/wykaz_kolorow_rozszerzonych,kolory.html
+
 
 <-----------------------------------      przyciski  ---------------------------------------------------------------->
 Styl dla przycisków składa się z dwóch części. Pierwszej (np.basic), która ma dwie funkcje: określa rozdzielczość oraz w rozmiar przycisku. Drugi (Btn) to skrót od przycisku (button).
@@ -154,6 +166,19 @@ przykład
 .textRed{
 	color: red;
 }
+
+lista styli, które można zastosować:
+.textGreen, .textRed, .textBlue, .textYellow, .textBlack, .textWhite, .textAliceBlue, .textAntiqueWhite, .textAquamarine,
+.textAzure, .textBeige, .textBisque, .textBlanchedalmond, .textViolet, .textBrown, .textBurlywood, .textCadetBlue,
+.textChartreuse, .textChocolate, .textCoral, .textCornFlowerBlue, .textCornSilk, .textCrimson, .textCyan, .textDarkBlue,
+.textDarkCyan, .textDarkGoldenRod, .textDarkGray, .textDarkGreen, .textDarkKhaki, .textDarkMagenta, .textDarkOliveGreen,
+.textDarkOrange, .textDarkOrchid, .textDarkRed, .textDarkSalmon, .textDarkSeaGreen, .textDarkSlateBlue, .textDarkSlateGray,
+.textDarkTurquoise, .textDarkViolet, .textDeepPink, .textDeepSkyBlue, .textDimgray, .textDodgerBlue, .textFireBrick,
+.textFloralWhite, .textForestGreen, .textGainsboro, .textGhostWhite, .textGold, .textGoldenRod, .textGreenYellow, .textGrey, .textHoneyDew, .textHotPink, .textIndianRed, .textIndigo, .textIvory, .textKhaki, .textLavender, .textLavenderBlush, .textLawnGreen, .textLemonChiffon, .textLightBlue, .textLightCoral, .textLighCyan, .textLightGoldenrodYellow, .textLightGray, .textLightGreen, .textLightGrey, .textLightpPink, .textLightSalmon, .textLightSeaGreen, .textLightSkyBlue, .textLightsLateGray, .textLightSteelBlue, .textLightYellow, .textLimeGreen, .textLinen, .textMagenta, .textMediumAquamarine, .textMediumBlue, .textMediumOrchid, .textMediumPurple, .textMediumSeaGreen, .textMediumSlateBlue, .textMediumSpringGreen, .textMediumTurquoise, .textMediumVioletred, .textMidnightBlue, .textMintCream, .textMistyRose, .textMoccasin, .textNavajoWhite, .textOldLace, .textOliveDrab, .textOrangeRed, .textOrchid, .textPaleGoldenRod, .textPaleGreen, .textPaleTurquoise, .textPaleVioletRed, .textPapayaWhip, .textPeachPuff, .textPeru, .textPink, .textPlum, .textPowderBlue, .textRosyBrown, .textRoyalBlue, .textSaddleBrown, .textSalmon, .textSandyBrown, .textSeaGreen, .textSeaShell, .textSienna, .textSkyBlue, .textSlateBlue, .textSlateGray, .textSnow, .textSpringGreen, .textSteelBlue, .textTan, .textThistle, .textTomato, .textTurquoise, .textViolet, .textWheat, .textWhiteSmoke, .textYellowGreen
+
+kolory oraz ich nazwy pobrano ze strony:
+http://www.kurshtml.edu.pl/css/wykaz_kolorow_rozszerzonych,kolory.html
+
 
 <--------------------------------------------  podkreślenia  ----------------------------------------------------->
 Podobnie jak z kolorem tekstu. Pierwsza część określa, że styl jest podkreśleniem, druga oznacza kolor.
