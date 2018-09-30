@@ -4,3 +4,91 @@
 .basicBtn{
   width: 40%; height: 7%; font-weight: bold; font-size: 1.05em; text-shadow: 1px 1px white;
 }
+
+
+//pierszy styl dla przycisków
+.btnStyl1{
+  width: 20%;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  padding: 1% 0 1% 0;
+  transform: skewX(20deg);
+  box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
+              -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
+}
+
+.btnStyl1a{
+  width: 20%;
+  background-color: crimson;
+  font-weight: bold;
+  color: white;
+  padding: 1% 0 1% 0;
+  transform: skewX(20deg);
+  box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
+              -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
+}
+
+.btnStyl1b{
+  width: 20%;
+  background-color: blue;
+  font-weight: bold;
+  color: white;
+  padding: 1% 0 1% 0;
+  transform: skewX(20deg);
+  box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
+              -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
+}
+
+ //drugi styl dla przycisków
+ .btnStyl2{
+   width: 20%;
+   background: linear-gradient(white, green);
+   font-weight: bold;
+   color: white;
+   padding: 1% 0 1% 0;
+   transform: skewX(20deg);
+   box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
+               -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
+ }
+
+ .btnStyl2a{
+   width: 20%;
+   background: linear-gradient(white, crimson);
+   font-weight: bold;
+   color: white;
+   padding: 1% 0 1% 0;
+   transform: skewX(20deg);
+   box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
+               -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
+ }
+
+ .btnStyl2b{
+   width: 20%;
+   background: linear-gradient(white, blue);
+   font-weight: bold;
+   color: white;
+   padding: 1% 0 1% 0;
+   transform: skewX(20deg);
+   box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
+               -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
+ }
+
+
+ //style po aktywowaniu przycisku stylu .btnStyl1, .btnStyl1a, .btnStyl1b
+ .btnStyl1:active, .btnStyl1a:active, .btnStyl1b:active, .btnStyl2:active, .btnStyl2a:active, .btnStyl2b:active{
+   transform: translate(0, 4px) skew(20deg);
+   color: black;
+ }
+
+  .btnStyl1:active { background-color: lightgreen; }
+  .btnStyl1a:active{ background-color: #ff9090; }
+  .btnStyl1b:active{ background-color: lightblue; }
+
+  .btnStyl2:active{ background: linear-gradient(lightgreen, lightgreen); }
+  .btnStyl2a:active{ background: linear-gradient(#ff9090, #ff9090); }
+  .btnStyl2b:active{ background: linear-gradient(lightblue, lightblue); }
+
+//likwidacja niebieskiego obramowania, gdy wciska się przycisk
+.btnStyl1:focus, .btnStyl1a:focus, .btnStyl1b:focus{
+ outline: none; }

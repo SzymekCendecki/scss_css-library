@@ -37,3 +37,6 @@ Dodanie kolorów tła w backgroundColors.scss.
 29 sierpnia 2018 - wersja 0.0.17
 	Dodanie kolorów tekstu w textColors.scss.
 Poprawki literówek.
+
+30 sierpnia 2018 - wersja 0.0.18
+Dodano style dla sześciu przycisków.
