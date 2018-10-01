@@ -38,7 +38,7 @@ styl przycisków dla rozdzielczości 1366x768
 }
 
 style dla przycisków:
-.btnStyl1, .btnStyl1a, .btnStyl1b, .btnStyl2, .btnStyl12a, .btnStyl2b.
+.btnStyl1, .btnStyl1a, .btnStyl1b, .btnStyl1c, .btnStyl2, .btnStyl12a, .btnStyl2b, .btnStyl2c.
 
 <---------------------------------   wielkość liter w em' ach ----------------------------------------------------->
 Nazwa stylu dla wielkości liter składa się z  trzech części. Pierwszą cześcią nazwy stylu określa do czego służy ten styl, drugi człon określa wielkość tektu. Trzeci człon zaś określa jednostkę w jakich jest dana wielkość.

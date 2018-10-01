@@ -40,3 +40,7 @@ Poprawki literówek.
 
 30 sierpnia 2018 - wersja 0.0.18
 Dodano style dla sześciu przycisków.
+
+1 października 2018 - września 0.0.19
+Dodano dwa style przycisków.
+	Poprawiono wyświetlanie niebieskiego obramowania przycisków, podczas ich wciskania.
