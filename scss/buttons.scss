@@ -95,7 +95,7 @@
                -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
  }
 
- //drugi styl dla przycisków
+ //trzeci styl dla przycisków
  .btnStyl3{
    width: 20%;
    background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(0,128,0,1) 50%, rgba(0,128,0,1) 100%);
@@ -133,6 +133,39 @@
                3px 3px 0 #a6a6a6, 4px 4px 0 #ededed;
  }
 
+ //czwarty styl dla przycisków
+ .btnStyl4{
+   width: 20%;
+   background: white;
+   font-weight: bold;
+   padding: 1% 0 1% 0;
+ }
+
+ .btnStyl4a{
+   width: 20%;
+   background: white;
+   font-weight: bold;
+   padding: 1% 0 1% 0;
+   transform: skewX(20deg);
+ }
+
+ .btnStyl4b{
+   width: 20%;
+   background: white;
+   font-weight: bold;
+   padding: 1% 0 1% 0;
+   border-radius: 15px;
+ }
+
+ .btnStyl4c{
+   width: 20%;
+   background: white;
+   font-weight: bold;
+   padding: 1% 0 1% 0;
+   transform: skewX(-20deg);
+   border-radius: 15px;
+ }
+
 
  //style po aktywowaniu przycisku stylu .btnStyl1, .btnStyl1a, .btnStyl1b
  .btnStyl1:active, .btnStyl1a:active, .btnStyl1b:active, .btnStyl1c:active, .btnStyl2:active, .btnStyl2a:active, .btnStyl2b:active, .btnStyl2c:active{
@@ -166,7 +199,15 @@
   background: linear-gradient(46deg, gold 0%, gold 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 100%);
 }
 
+.btnStyl4:hover, .btnStyl4a:hover, .btnStyl4b:hover, .btnStyl4c:hover{
+  background-color: #696969;;
+}
+
+.btnStyl4:active, .btnStyl4a:active, .btnStyl4b:active, .btnStyl4c:active{
+  background-color: #778899;
+}
+
 
 //likwidacja niebieskiego obramowania, gdy wciska się przycisk
-.btnStyl1:focus, .btnStyl1a:focus, .btnStyl1b:focus, .btnStyl1c:focus, .btnStyl2:focus, .btnStyl2a:focus, .btnStyl2b:focus, .btnStyl2c:focus, .btnStyl3:focus, .btnStyl3a:focus, .btnStyl3b:focus, .btnStyl3c:focus{
+.btnStyl1:focus, .btnStyl1a:focus, .btnStyl1b:focus, .btnStyl1c:focus, .btnStyl2:focus, .btnStyl2a:focus, .btnStyl2b:focus, .btnStyl2c:focus, .btnStyl3:focus, .btnStyl3a:focus, .btnStyl3b:focus, .btnStyl3c:focus, .btnStyl4:focus, .btnStyl4a:focus, .btnStyl4b:focus, .btnStyl4c:focus{
  outline: none; }

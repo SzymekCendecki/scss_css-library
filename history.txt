@@ -47,3 +47,6 @@ Dodano dwa style przycisków.
 
 1 października 2018 - wersja 0.0.20
 Dodano style dla przycisków.
+
+2 października 2018 - wersja 0.0.21
+Dodano style dla przycisków.
