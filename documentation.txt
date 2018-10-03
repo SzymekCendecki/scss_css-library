@@ -112,7 +112,7 @@ przykłady
 }
 
 
-<----------------------- tekst: wycentrowany, pogrubiony, normalny, pochyły   ----------------------------->
+<----------------------- tekst: wycentrowany, pogrubiony, normalny, pochyły. flex  ----------------------------->
 
 Style te składają się z dwóch części. Pierwsza określa co robi, druga określa czeo dotyczy.
 
@@ -128,6 +128,10 @@ przykłady
 .italic {
 	font-style: italic;
 }
+
+lista styli, które można zastosować:
+.centerText, .boldText, .normalText, .italic, .flex.
+
 
 <----------------------------------------  paddings ----------------------------------------------->
 konstrukcja oraz użycie tych styli taka sam jak marginesów, tylko zamiast margins jest paddings.
@@ -154,6 +158,9 @@ druga określa wartości liczbowe (w pikselach):
 jeżeli nie ma trzeciej liczby, to po prostu nie ma rozmycia cienia. zasada stosowania liczb w nazwie jest taka sama jak dla margins i paddings
 
 trzecia określa kolor użytego cienia
+
+lista styli, które można zastosować:
+.shadowBox11white, .shadowsBox111black, .shadowsBox246black, .shadowsBox642black, .shadowsBox333black, .shadowsBox555black.
 
 
 <---------------------------------------------  kolor tekstu ------------------------------------------------------>

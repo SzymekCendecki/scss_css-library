@@ -50,3 +50,8 @@ Dodano style dla przycisków.
 
 2 października 2018 - wersja 0.0.21
 Dodano style dla przycisków.
+
+3 października 2018 - wersja 0.0.22
+Dodano nowe style dla box-shadow, w shadows.scss.
+	Dodano styl flex, w other.scss
+Uzupełnienie dokumentacji.
