@@ -1,29 +1,16 @@
 //shadows for buttons
-.shadowBox11white{
-  box-shadow: 1px 1px white;
+.shadowBox11white{ box-shadow: 1px 1px white; }
+
+.shadowsBox111black{ box-shadow: 1px 1px 1px black; }
+.shadowsBox246black{ box-shadow: 2px 4px 6px black; }
+.shadowsBox642black{ box-shadow: 6px 4px 2px black; }
+.shadowsBox333black{ box-shadow: 3px 3px 3px black; }
+.shadowsBox555black{ box-shadow: 5px 5px 5px black; }
+
+.shadowBoxBlackYellow{
+  box-shadow: 0 0 30px 5px rgba(0,0,0, 0.75),
+              0 0 20px 4px rgba(231,238,5, 1);
 }
-
-.shadowsBox111black{
-  box-shadow: 1px 1px 1px black;
-}
-
-.shadowsBox246black{
-  box-shadow: 2px 4px 6px black;
-}
-
-.shadowsBox642black{
-  box-shadow: 6px 4px 2px black;
-}
-
-.shadowsBox333black{
-  box-shadow: 3px 3px 3px black;
-}
-
-.shadowsBox555black{
-  box-shadow: 5px 5px 5px black;
-}
-
-
 
 //shadow for text
 .shadowText11white{ text-shadow: 1px 1px white; }

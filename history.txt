@@ -55,3 +55,7 @@ Dodano style dla przycisków.
 Dodano nowe style dla box-shadow, w shadows.scss.
 	Dodano styl flex, w other.scss
 Uzupełnienie dokumentacji.
+
+4 października 2018 - wersja 0.0.23
+Poprawiono wyświetlanie przykładowych divów na stronie.
+	Dodano styl dla shadow-box, w shadows.scss.
