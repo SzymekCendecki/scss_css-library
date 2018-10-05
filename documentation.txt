@@ -160,8 +160,10 @@ jeżeli nie ma trzeciej liczby, to po prostu nie ma rozmycia cienia. zasada stos
 trzecia określa kolor użytego cienia
 
 lista styli, które można zastosować:
-.shadowBox11white, .shadowsBox111black, .shadowsBox246black, .shadowsBox642black, .shadowsBox333black, .shadowsBox555black, .shadowBoxBlackYellow.
+.shadowBox11white, .shadowsBox111black, .shadowsBox246black, .shadowsBox642black, .shadowsBox333black, .shadowsBox555black, .shadowBoxBlackYellow,
 
+
+.shadowBoxBlackYellow, .shadowBoxBlue, .shadowBoxVioletYellow, .shadowBoxGrayRed.
 
 <---------------------------------------------  kolor tekstu ------------------------------------------------------>
 Nazwa stylu składa się z dwóch części. Pierwsza część (text) określa do czego styl jest pzeznaczony, druga część określa kolor tekstu.

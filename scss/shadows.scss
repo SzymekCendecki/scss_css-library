@@ -12,5 +12,19 @@
               0 0 20px 4px rgba(231,238,5, 1);
 }
 
+.shadowBoxBlue{
+  box-shadow: 0 0 10px 5px rgba(0,140,255, 1);
+}
+
+.shadowBoxVioletYellow{
+  box-shadow: 0 0 30px 5px rgba(129, 133, 254, 0.75),
+              0 0 20px 4px rgba(231,238,5, 1);
+}
+
+.shadowBoxGrayRed{
+  box-shadow: 0 0 30px 5px rgba(64, 64, 64, 0.75),
+              0 0 20px 4px rgba(240,0,0, 1);
+}
+
 //shadow for text
 .shadowText11white{ text-shadow: 1px 1px white; }
