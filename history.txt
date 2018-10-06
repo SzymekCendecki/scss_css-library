@@ -63,3 +63,7 @@ Poprawiono wyświetlanie przykładowych divów na stronie.
 5 października 2018 - wersja 0.0.24
 Dodano nowe style dla shadow-box, w shadows.scss.
 	Poprawiono styl flex - dodano flex-wrap: wrap.
+
+6 października 2018 - wersja 0.0.25
+Dodano dwa nowe style do fontSize.scss - .fontSize14em i .fontSize15em
+	Doadano 13 styli do fontSize.scss - .fontSize8px, .fontSize9px, .fontSize10px, .fontSize11px, .fontSize12px, .fontSize13px, .fontSize14px, .fontSize15px, .fontSize16px, .fontSize17px, .fontSize18px, .fontSize19px, .fontSize20px.

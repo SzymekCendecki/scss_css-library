@@ -48,6 +48,13 @@ przykład
 	font-size: 0.8em;
 }
 
+lista styli, które można zastosować:
+
+dla em
+.fontSize08em, .fontSize09em, .fontSize1em, .fontSize11em, .fontSize12em, .fontSize13em, .fontSize14em, .fontSize15em.
+
+dla px
+.fontSize8px, .fontSize9px, .fontSize10px, .fontSize11px, .fontSize12px, .fontSize13px, .fontSize14px, .fontSize15px, .fontSize16px, .fontSize17px, .fontSize18px, .fontSize19px, .fontSize20px.
 
 <------------------------------------ grids ---------------------------------------------------------------->
 Styl ".grid-display" (dla głównego kontenera) ma sztywne ustawienie zawartości pokazane w przykładzie.
