@@ -166,6 +166,41 @@
    border-radius: 15px;
  }
 
+.btnStyl5{
+  width: 20%;
+  background: #6495ED;
+  font-weight: bold;
+  padding: 1% 0 1% 0;
+  box-shadow: inset 0 0 15px #000000;
+}
+
+.btnStyl5a{
+  width: 20%;
+  background: #6495ED;
+  font-weight: bold;
+  padding: 1% 0 1% 0;
+  box-shadow: inset 0 4px 10px #000000,
+              inset 0 -4px 10px #FFFFFF;
+}
+
+.btnStyl5b{
+  width: 20%;
+  background: #6495ED;
+  font-weight: bold;
+  padding: 1% 0 1% 0;
+  box-shadow: inset 0 -3px 5px #000000,
+              inset 0 -5px 10px #FFFFFF;
+}
+
+.btnStyl5c{
+  width: 20%;
+  background: #6495ED;
+  font-weight: bold;
+  padding: 1% 0 1% 0;
+  box-shadow: inset -3px 0 5px #000000,
+              inset -5px 0 10px #FFFFFF;
+}
+
 
  //style po aktywowaniu przycisku stylu .btnStyl1, .btnStyl1a, .btnStyl1b
  .btnStyl1:active, .btnStyl1a:active, .btnStyl1b:active, .btnStyl1c:active, .btnStyl2:active, .btnStyl2a:active, .btnStyl2b:active, .btnStyl2c:active{
@@ -200,14 +235,34 @@
 }
 
 .btnStyl4:hover, .btnStyl4a:hover, .btnStyl4b:hover, .btnStyl4c:hover{
-  background-color: #696969;;
+  background-color: #696969;
 }
 
 .btnStyl4:active, .btnStyl4a:active, .btnStyl4b:active, .btnStyl4c:active{
   background-color: #778899;
 }
 
+.btnStyl5:active{
+  box-shadow: 0 0 20px #000000,
+              0 0 25px #FFFFFF;
+}
+
+.btnStyl5a:active{
+  box-shadow: inset 0 -4px 10px #000000,
+              inset 0 4px 10px #FFFFFF;
+}
+
+.btnStyl5b:active{
+  box-shadow: inset 0 3px 5px #000000,
+              inset 0 5px 10px #FFFFFF;
+}
+
+.btnStyl5c:active{
+  box-shadow: inset 3px 0 5px #000000,
+              inset 5px 0 10px #FFFFFF;
+}
 
 //likwidacja niebieskiego obramowania, gdy wciska się przycisk
-.btnStyl1:focus, .btnStyl1a:focus, .btnStyl1b:focus, .btnStyl1c:focus, .btnStyl2:focus, .btnStyl2a:focus, .btnStyl2b:focus, .btnStyl2c:focus, .btnStyl3:focus, .btnStyl3a:focus, .btnStyl3b:focus, .btnStyl3c:focus, .btnStyl4:focus, .btnStyl4a:focus, .btnStyl4b:focus, .btnStyl4c:focus{
+.btnStyl1:focus, .btnStyl1a:focus, .btnStyl1b:focus, .btnStyl1c:focus, .btnStyl2:focus, .btnStyl2a:focus, .btnStyl2b:focus, .btnStyl2c:focus, .btnStyl3:focus, .btnStyl3a:focus, .btnStyl3b:focus, .btnStyl3c:focus, .btnStyl4:focus, .btnStyl4a:focus, .btnStyl4b:focus, .btnStyl4c:focus, .btnStyl5:focus, .btnStyl5a:focus,
+.btnStyl5b:focus, .btnStyl5c:focus{
  outline: none; }
