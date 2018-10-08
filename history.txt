@@ -70,3 +70,6 @@ Dodano dwa nowe style do fontSize.scss - .fontSize14em i .fontSize15em
 
 7 październia 2018 - wersja 0.0.26
 Dodano cztery nowe style dla przycisków, w buttons.scss - .btnStyl5, .btnStyl5a, .btnStyl5b, .btnStyl5c.
+
+8 października 2018 - wersja 0.0.27
+Dodano dwa mixiny: @mixin btnStyl12 oraz @mixin btnStyl345, w celu skrócenia kodu w pliku buttons.scss

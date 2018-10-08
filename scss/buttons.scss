@@ -5,202 +5,61 @@
   width: 40%; height: 7%; font-weight: bold; font-size: 1.05em; text-shadow: 1px 1px white;
 }
 
+//mixin for buttons with btnStyl1, btnStyl1a, btnStyl1b, btnStyl1c, btnStyl2, btnStyl2a, btnStyl2b, btnStyl2c
+@mixin btnStyl12{
+  width: 20%;
+  font-weight: bold;
+  color: white;
+  padding: 1% 0 1% 0;
+  transform: skewX(20deg);
+  box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
+              -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
+}
+
+//mixin for buttons with btnStyl3, btnStyl3a, btnStyl3b, btnStyl3c, btnStyl4, btnStyl4a, btnStyl4b, btnStyl4c, btnStyl5, btnStyl5a, btnStyl5b, btnStyl5c 
+@mixin btnStyl345{
+  width: 20%;
+  font-weight: bold;
+  padding: 1% 0 1% 0;
+}
+
 //pierszy styl dla przycisków
-.btnStyl1{
-  width: 20%;
-  background-color: green;
-  font-weight: bold;
-  color: white;
-  padding: 1% 0 1% 0;
-  transform: skewX(20deg);
-  box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
-              -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
-}
-
-.btnStyl1a{
-  width: 20%;
-  background-color: crimson;
-  font-weight: bold;
-  color: white;
-  padding: 1% 0 1% 0;
-  transform: skewX(20deg);
-  box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
-              -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
-}
-
-.btnStyl1b{
-  width: 20%;
-  background-color: blue;
-  font-weight: bold;
-  color: white;
-  padding: 1% 0 1% 0;
-  transform: skewX(20deg);
-  box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
-              -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
-}
-
-.btnStyl1c{
-  width: 20%;
-  background-color: gold;
-  font-weight: bold;
-  color: blue;
-  padding: 1% 0 1% 0;
-  transform: skewX(20deg);
-  box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
-              -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
-}
+.btnStyl1{ @include btnStyl12; background-color: green; }
+.btnStyl1a{ @include btnStyl12; background-color: crimson; }
+.btnStyl1b{ @include btnStyl12; background-color: blue; }
+.btnStyl1c{ @include btnStyl12; background-color: gold; }
 
  //drugi styl dla przycisków
- .btnStyl2{
-   width: 20%;
-   background: linear-gradient(white, green);
-   font-weight: bold;
-   color: white;
-   padding: 1% 0 1% 0;
-   transform: skewX(20deg);
-   box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
-               -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
- }
-
- .btnStyl2a{
-   width: 20%;
-   background: linear-gradient(white, crimson);
-   font-weight: bold;
-   color: white;
-   padding: 1% 0 1% 0;
-   transform: skewX(20deg);
-   box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
-               -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
- }
-
- .btnStyl2b{
-   width: 20%;
-   background: linear-gradient(white, blue);
-   font-weight: bold;
-   color: white;
-   padding: 1% 0 1% 0;
-   transform: skewX(20deg);
-   box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
-               -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
- }
-
- .btnStyl2c{
-   width: 20%;
-   background: linear-gradient(white, gold);
-   font-weight: bold;
-   color: blue;
-   padding: 1% 0 1% 0;
-   transform: skewX(20deg);
-   box-shadow: -1px 1px 0 #606060, -2px 2px 0 #838383,
-               -3px 3px 0 #a6a6a6, -4px 4px 0 #ededed;
- }
+ .btnStyl2{ @include btnStyl12; background: linear-gradient(white, green); }
+ .btnStyl2a{ @include btnStyl12; background: linear-gradient(white, crimson); }
+ .btnStyl2b{ @include btnStyl12; background: linear-gradient(white, blue); }
+ .btnStyl2c{ @include btnStyl12; background: linear-gradient(white, gold); color: blue; }
 
  //trzeci styl dla przycisków
- .btnStyl3{
-   width: 20%;
-   background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(0,128,0,1) 50%, rgba(0,128,0,1) 100%);
-   font-weight: bold;
-   padding: 1% 0 1% 0;
-   box-shadow: 1px 1px 0 #606060, 2px 2px 0 #838383,
-               3px 3px 0 #a6a6a6, 4px 4px 0 #ededed;
- }
+ .btnStyl3{ @include btnStyl345; background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(0,128,0,1) 50%, rgba(0,128,0,1) 100%);
+   box-shadow: 1px 1px 0 #606060, 2px 2px 0 #838383, 3px 3px 0 #a6a6a6, 4px 4px 0 #ededed; }
 
- .btnStyl3a{
-   width: 20%;
-   background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, crimson 50%, crimson 100%);
-   font-weight: bold;
-   padding: 1% 0 1% 0;
-   box-shadow: 1px 1px 0 #606060, 2px 2px 0 #838383,
-               3px 3px 0 #a6a6a6, 4px 4px 0 #ededed;
- }
+ .btnStyl3a{ @include btnStyl345; background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, crimson 50%, crimson 100%);
+   box-shadow: 1px 1px 0 #606060, 2px 2px 0 #838383, 3px 3px 0 #a6a6a6, 4px 4px 0 #ededed; }
 
- .btnStyl3b{
-   width: 20%;
-   background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, blue 50%, blue 100%);
-   font-weight: bold;
-   padding: 1% 0 1% 0;
-   box-shadow: 1px 1px 0 #606060, 2px 2px 0 #838383,
-               3px 3px 0 #a6a6a6, 4px 4px 0 #ededed;
- }
+.btnStyl3b{ @include btnStyl345; background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, blue 50%, blue 100%);
+   box-shadow: 1px 1px 0 #606060, 2px 2px 0 #838383, 3px 3px 0 #a6a6a6, 4px 4px 0 #ededed; }
 
- .btnStyl3c{
-   width: 20%;
-   background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, gold 50%, gold 100%);
-   font-weight: bold;
-   color: blue;
-   padding: 1% 0 1% 0;
-   box-shadow: 1px 1px 0 #606060, 2px 2px 0 #838383,
-               3px 3px 0 #a6a6a6, 4px 4px 0 #ededed;
- }
+ .btnStyl3c{ @include btnStyl345; background: linear-gradient(46deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, gold 50%, gold 100%);
+   color: blue; box-shadow: 1px 1px 0 #606060, 2px 2px 0 #838383, 3px 3px 0 #a6a6a6, 4px 4px 0 #ededed; }
 
  //czwarty styl dla przycisków
- .btnStyl4{
-   width: 20%;
-   background: white;
-   font-weight: bold;
-   padding: 1% 0 1% 0;
- }
+ .btnStyl4{ @include btnStyl345; background: white; }
+ .btnStyl4a{ @include btnStyl345; background: white; transform: skewX(20deg); }
+ .btnStyl4b{ @include btnStyl345; background: white; border-radius: 15px; }
+ .btnStyl4c{ @include btnStyl345; background: white; transform: skewX(-20deg); border-radius: 15px; }
 
- .btnStyl4a{
-   width: 20%;
-   background: white;
-   font-weight: bold;
-   padding: 1% 0 1% 0;
-   transform: skewX(20deg);
- }
 
- .btnStyl4b{
-   width: 20%;
-   background: white;
-   font-weight: bold;
-   padding: 1% 0 1% 0;
-   border-radius: 15px;
- }
-
- .btnStyl4c{
-   width: 20%;
-   background: white;
-   font-weight: bold;
-   padding: 1% 0 1% 0;
-   transform: skewX(-20deg);
-   border-radius: 15px;
- }
-
-.btnStyl5{
-  width: 20%;
-  background: #6495ED;
-  font-weight: bold;
-  padding: 1% 0 1% 0;
-  box-shadow: inset 0 0 15px #000000;
-}
-
-.btnStyl5a{
-  width: 20%;
-  background: #6495ED;
-  font-weight: bold;
-  padding: 1% 0 1% 0;
-  box-shadow: inset 0 4px 10px #000000,
-              inset 0 -4px 10px #FFFFFF;
-}
-
-.btnStyl5b{
-  width: 20%;
-  background: #6495ED;
-  font-weight: bold;
-  padding: 1% 0 1% 0;
-  box-shadow: inset 0 -3px 5px #000000,
-              inset 0 -5px 10px #FFFFFF;
-}
-
-.btnStyl5c{
-  width: 20%;
-  background: #6495ED;
-  font-weight: bold;
-  padding: 1% 0 1% 0;
-  box-shadow: inset -3px 0 5px #000000,
-              inset -5px 0 10px #FFFFFF;
-}
-
+//piąty styl dla przycisków
+.btnStyl5{ @include btnStyl345; background: #6495ED; box-shadow: inset 0 0 15px #000000; }
+.btnStyl5a{ @include btnStyl345; background: #6495ED; box-shadow: inset 0 4px 10px #000000, inset 0 -4px 10px #FFFFFF; }
+.btnStyl5b{ @include btnStyl345; background: #6495ED; box-shadow: inset 0 -3px 5px #000000, inset 0 -5px 10px #FFFFFF; }
+.btnStyl5c{ @include btnStyl345; background: #6495ED; box-shadow: inset -3px 0 5px #000000, inset -5px 0 10px #FFFFFF; }
 
  //style po aktywowaniu przycisku stylu .btnStyl1, .btnStyl1a, .btnStyl1b
  .btnStyl1:active, .btnStyl1a:active, .btnStyl1b:active, .btnStyl1c:active, .btnStyl2:active, .btnStyl2a:active, .btnStyl2b:active, .btnStyl2c:active{
