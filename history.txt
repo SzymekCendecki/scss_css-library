@@ -68,8 +68,11 @@ Dodano nowe style dla shadow-box, w shadows.scss.
 Dodano dwa nowe style do fontSize.scss - .fontSize14em i .fontSize15em
 	Doadano 13 styli do fontSize.scss - .fontSize8px, .fontSize9px, .fontSize10px, .fontSize11px, .fontSize12px, .fontSize13px, .fontSize14px, .fontSize15px, .fontSize16px, .fontSize17px, .fontSize18px, .fontSize19px, .fontSize20px.
 
-7 październia 2018 - wersja 0.0.26
+7 października 2018 - wersja 0.0.26
 Dodano cztery nowe style dla przycisków, w buttons.scss - .btnStyl5, .btnStyl5a, .btnStyl5b, .btnStyl5c.
 
 8 października 2018 - wersja 0.0.27
-Dodano dwa mixiny: @mixin btnStyl12 oraz @mixin btnStyl345, w celu skrócenia kodu w pliku buttons.scss
+Dodano dwa mixiny: @mixin btnStyl12 oraz @mixin btnStyl345, w celu skrócenia kodu w pliku buttons.scss.
+
+9 październia 2018 - wersja 0.0.28
+Dodano cztery nowe style dla przycisków: .btnStyl6, .btnStyl6a, .btnStyl6b, .btnStyl6c.
