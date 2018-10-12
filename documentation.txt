@@ -119,7 +119,7 @@ przykłady
 }
 
 
-<----------------------- tekst: wycentrowany, pogrubiony, normalny, pochyły. flex  ----------------------------->
+<----------------------- tekst: wycentrowany, pogrubiony, normalny, pochyły, flex  ----------------------------->
 
 Style te składają się z dwóch części. Pierwsza określa co robi, druga określa czeo dotyczy.
 
@@ -138,6 +138,8 @@ przykłady
 
 lista styli, które można zastosować:
 .centerText, .boldText, .normalText, .italic, .flex.
+
+"przycisk" do zamykania np. diva - pseudo "przycisk", utworzony z trzech divów: pierwszy główny z klasą o nazwie "close", oraz dwa divy wewnątrz głównego, z klasami "one" (dla pierwszego) oraz "two", dla drugiego. Po wciśnięciu X zmienia kolor na niebieski oraz zmienia położenie.
 
 
 <----------------------------------------  paddings ----------------------------------------------->

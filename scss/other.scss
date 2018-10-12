@@ -16,3 +16,59 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+//close "window"
+  .close{
+    background: radial-gradient( circle at top left, white 5%, red 95%);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .one{
+      width: 5px;
+      height: 17px;
+      background-color: white;
+      transform: rotate(45deg);
+      border-radius: 10px;
+    }
+
+    .two{
+      width: 5px;
+      height: 17px;
+      margin-left: -5px;
+      background-color: white;
+      transform: rotate(-45deg);
+      border-radius: 10px;
+    }
+  }
+
+  .close:active{
+    .one{
+      animation-name: anim1;
+      animation-duration: 0.25s;
+      background-color: blue;
+      transform: rotate(180deg);
+    }
+
+    .two{
+      animation-name: anim2;
+      animation-duration: 0.25s;
+      background-color: blue;
+      transform: rotate(-90deg);
+    }
+
+    @keyframes anim1 {
+      from {background-color: white; transform: rotate(45deg);}
+      to {background-color: blue; transform: rotate(180deg);}
+    }
+    @keyframes anim2 {
+      from {background-color: white; transform: rotate(-45deg);}
+      to {background-color: blue; transform: rotate(-90deg);}
+    }
+  }

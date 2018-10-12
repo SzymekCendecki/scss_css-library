@@ -82,3 +82,7 @@ Dodano cztery nowe style dla przycisków: .btnStyl7, .btnStyl7a, .btnStyl7b, .bt
 	Utworzono mixin btnStyl67 dla styli: .btnStyl6, .btnStyl6a, .btnStyl6b, .btnStyl6c, .btnStyl7, .btnStyl7a, .btnStyl7b, .btnStyl7c.
 
 11 października 2018 - wersja 0.0.30
+Dodano cztery nowe style dla przycisków: .btnStyl8, .btnStyl8a, .btnStyl8b, .btnStyl8c.
+
+12 października 2018 - wersja 0.0.31
+Utworzono diva "zamknij" (pierwsza wersja) w other.scss.
