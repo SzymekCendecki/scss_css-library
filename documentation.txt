@@ -139,7 +139,11 @@ przykłady
 lista styli, które można zastosować:
 .centerText, .boldText, .normalText, .italic, .flex.
 
-"przycisk" do zamykania np. diva - pseudo "przycisk", utworzony z trzech divów: pierwszy główny z klasą o nazwie "close", oraz dwa divy wewnątrz głównego, z klasami "one" (dla pierwszego) oraz "two", dla drugiego. Po wciśnięciu X zmienia kolor na niebieski oraz zmienia położenie.
+"przycisk" do zamykania np. diva - pseudo "przycisk", utworzony z trzech divów: pierwszy, główny z klasą o nazwie "close", oraz dwa divy wewnątrz głównego, tworzące X.
+
+
+style dla "przycisku" "zamykania" stworzonych z divów:
+.closeVer1, .closeVer2, .closeVer3, .closeVer4, .closeVer5
 
 
 <----------------------------------------  paddings ----------------------------------------------->

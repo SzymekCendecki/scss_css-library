@@ -18,6 +18,7 @@
 }
 
 //close "window"
+//wersja pierwsza
   .close{
     background: radial-gradient( circle at top left, white 5%, red 95%);
     border-radius: 50%;
@@ -29,8 +30,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    .one{
+
+    div:first-child{
       width: 5px;
       height: 17px;
       background-color: white;
@@ -38,7 +39,7 @@
       border-radius: 10px;
     }
 
-    .two{
+    div:last-child{
       width: 5px;
       height: 17px;
       margin-left: -5px;
@@ -49,26 +50,187 @@
   }
 
   .close:active{
-    .one{
-      animation-name: anim1;
+    div:first-child{
+      animation-name: anim1a;
       animation-duration: 0.25s;
       background-color: blue;
       transform: rotate(180deg);
     }
 
-    .two{
-      animation-name: anim2;
+    div:last-child{
+      animation-name: anim2a;
       animation-duration: 0.25s;
       background-color: blue;
       transform: rotate(-90deg);
     }
 
-    @keyframes anim1 {
+    @keyframes anim1a {
       from {background-color: white; transform: rotate(45deg);}
       to {background-color: blue; transform: rotate(180deg);}
     }
-    @keyframes anim2 {
+    @keyframes anim2a {
       from {background-color: white; transform: rotate(-45deg);}
       to {background-color: blue; transform: rotate(-90deg);}
     }
   }
+
+//wersja druga
+  .closeVer2{
+    background: radial-gradient( circle at top left, white 5%, red 95%);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div:first-child{
+      width: 5px;
+      height: 17px;
+      background-color: white;
+      transform: rotate(45deg);
+      border-radius: 10px;
+    }
+
+    div:last-child{
+      width: 5px;
+      height: 17px;
+      margin-left: -5px;
+      background-color: white;
+      transform: rotate(-45deg);
+      border-radius: 10px;
+    }
+  }
+
+  .closeVer2:active{
+    animation-name: anim2;
+    animation-duration: 0.5s;
+
+    @keyframes anim2 {
+      from {}
+      to {transform: scale(0.5, 0.5);}
+    }
+  }
+
+  //wersja trzecia
+    .closeVer3{
+      background: radial-gradient( circle at top left, white 5%, red 95%);
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      color: white;
+      font-weight: bold;
+      border: 2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      div:first-child{
+        width: 5px;
+        height: 17px;
+        background-color: white;
+        transform: rotate(45deg);
+        border-radius: 10px;
+      }
+
+      div:last-child{
+        width: 5px;
+        height: 17px;
+        margin-left: -5px;
+        background-color: white;
+        transform: rotate(-45deg);
+        border-radius: 10px;
+      }
+    }
+
+    .closeVer3:active{
+      animation: anim3 1s linear infinite;
+
+      @keyframes anim3{
+        0% { transform: rotateY(0); }
+        100% { transform: rotateY(360deg); }
+      }
+    }
+
+    //wersja czwarta
+      .closeVer4{
+        background: radial-gradient( circle at top left, white 5%, red 95%);
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        color: white;
+        font-weight: bold;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div:first-child{
+          width: 5px;
+          height: 17px;
+          background-color: white;
+          transform: rotate(45deg);
+          border-radius: 10px;
+        }
+
+        div:last-child{
+          width: 5px;
+          height: 17px;
+          margin-left: -5px;
+          background-color: white;
+          transform: rotate(-45deg);
+          border-radius: 10px;
+        }
+      }
+
+      .closeVer4:active{
+        animation: anim4 1s linear infinite;
+
+        @keyframes anim4{
+          0% { transform: rotateX(0); }
+          100% { transform: rotateX(360deg); }
+        }
+      }
+
+      //wersja piąta
+        .closeVer5{
+          background: radial-gradient( circle at top left, white 5%, red 95%);
+          border-radius: 50%;
+          width: 25px;
+          height: 25px;
+          color: white;
+          font-weight: bold;
+          border: 2px solid black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          div:first-child{
+            width: 5px;
+            height: 17px;
+            background-color: white;
+            transform: rotate(45deg);
+            border-radius: 10px;
+          }
+
+          div:last-child{
+            width: 5px;
+            height: 17px;
+            margin-left: -5px;
+            background-color: white;
+            transform: rotate(-45deg);
+            border-radius: 10px;
+          }
+        }
+
+        .closeVer5:active{
+          animation: anim5 1s linear infinite;
+
+          @keyframes anim5{
+            0% { transform: rotateY(0) rotateX(0); }
+            100% { transform: rotateY(360deg) rotateX(360deg); }
+          }
+        }
