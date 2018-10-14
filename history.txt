@@ -91,3 +91,6 @@ Utworzono diva (styl) "zamknij" (pierwsza wersja) w other.scss. Za przycisk robi
 Dodano kolejne, cztery wersje styli dla przycisku "zamknij" w other.scss (za przycisk robią trzy divy: jeden główny i dwa "wewnętrzne" divy jako X).
 	 Dorobna poprawka dla styli "przycisków" "zamknij" - z wewnętrznych divów, tworzących X usunięto klasy. Zastosowano div:first-child oraz div:last-child.
 Zmiana nazwy stylu .close na .closeVer1.
+
+14 październia 2018 - wersja 0.0.33
+Dodano cztery nowe style dla przycisków: .btnStyl9, .btnStyl9a, .btnStyl9b, .btnStyl9c.
