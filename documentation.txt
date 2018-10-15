@@ -38,7 +38,7 @@ styl przycisków dla rozdzielczości 1366x768
 }
 
 style dla przycisków:
-.btnStyl1, .btnStyl1a, .btnStyl1b, .btnStyl1c, .btnStyl2, .btnStyl12a, .btnStyl2b, .btnStyl2c, .btnStyl3, .btnStyl3a, .btnStyl3b, .btnStyl3c, .btnStyl4, .btnStyl4a, .btnStyl4b, .btnStyl4c, .btnStyl5, .btnStyl5a, .btnStyl5b, .btnStyl5c, .btnStyl6, .btnStyl6a, .btnStyl6b, .btnStyl6c, .btnStyl7, .btnStyl7a, .btnStyl7b, .btnStyl7c, .btnStyl8, .btnStyl8a, .btnStyl8b, .btnStyl8c, .btnStyl9, .btnStyl9a, .btnStyl9b, .btnStyl9c. 
+.btnStyl1, .btnStyl1a, .btnStyl1b, .btnStyl1c, .btnStyl2, .btnStyl12a, .btnStyl2b, .btnStyl2c, .btnStyl3, .btnStyl3a, .btnStyl3b, .btnStyl3c, .btnStyl4, .btnStyl4a, .btnStyl4b, .btnStyl4c, .btnStyl5, .btnStyl5a, .btnStyl5b, .btnStyl5c, .btnStyl6, .btnStyl6a, .btnStyl6b, .btnStyl6c, .btnStyl7, .btnStyl7a, .btnStyl7b, .btnStyl7c, .btnStyl8, .btnStyl8a, .btnStyl8b, .btnStyl8c, .btnStyl9, .btnStyl9a, .btnStyl9b, .btnStyl9c, .btnStyl9e, .btnStyl9e. 
 
 <---------------------------------   wielkość liter w em' ach ----------------------------------------------------->
 Nazwa stylu dla wielkości liter składa się z  trzech części. Pierwszą cześcią nazwy stylu określa do czego służy ten styl, drugi człon określa wielkość tektu. Trzeci człon zaś określa jednostkę w jakich jest dana wielkość.

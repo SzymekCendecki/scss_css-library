@@ -94,3 +94,6 @@ Zmiana nazwy stylu .close na .closeVer1.
 
 14 październia 2018 - wersja 0.0.33
 Dodano cztery nowe style dla przycisków: .btnStyl9, .btnStyl9a, .btnStyl9b, .btnStyl9c.
+
+15 października 2018 - wersja 0.0.34
+Dodano dwa nowe style dla przycisków: .btnStyl9d, .btnStyl9e.
