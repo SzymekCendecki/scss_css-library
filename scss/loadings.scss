@@ -1,0 +1,86 @@
+.loading1{
+  width: 100%;
+  height: 15px;
+  border: 1px solid black;
+  animation: load1 3s linear;
+  animation-fill-mode: forwards;
+  text-align: right;
+  color: black;
+}
+
+@keyframes load1 {
+  0% {width: 0%; background-color: white; }
+  100% { width: 100%; background-color: black; color: white; }
+}
+
+
+
+
+.loading2{
+  width: 100%;
+  height: 15px;
+  animation: load2 3s linear;
+  animation-fill-mode: forwards;
+  text-align: right;
+}
+
+@keyframes load2 {
+  0% {width: 0%; background-color: white; }
+  100% { width: 100%; background-color: green; }
+}
+
+
+
+.loading3{
+  width: 100%;
+  height: 15px;
+  animation: load3 3s linear;
+  animation-fill-mode: forwards;
+  text-align: right;
+  background: linear-gradient(white, green);
+  color: black;
+}
+
+@keyframes load3 {
+  0% {width: 0%; }
+  100% { width: 100%; }
+}
+
+
+
+.loading4{
+  width: 100%;
+  height: 15px;
+  animation: load4 3s linear;
+  animation-fill-mode: forwards;
+  text-align: right;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  transform: skewX(-25deg);
+  box-shadow: 2px 2px #666;
+}
+
+@keyframes load4 {
+  0% {width: 0%; }
+  100% { width: 100%; }
+}
+
+
+.loading5{
+  width: 100%;
+  height: 15px;
+  animation: load5 3s linear;
+  animation-fill-mode: forwards;
+  text-align: right;
+  background: linear-gradient(white, green);
+  color: black;
+  transform: skewX(-25deg);
+  box-shadow: 2px 2px #666;
+}
+
+@keyframes load5 {
+  0% {width: 0%; }
+  100% { width: 100%; }
+}

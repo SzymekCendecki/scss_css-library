@@ -97,3 +97,6 @@ Dodano cztery nowe style dla przycisków: .btnStyl9, .btnStyl9a, .btnStyl9b, .bt
 
 15 października 2018 - wersja 0.0.34
 Dodano dwa nowe style dla przycisków: .btnStyl9d, .btnStyl9e.
+
+16 października 2018 - wersja 0.0.35
+Dodano nowe style dla animacji "ładowania": loading1, loading2, loading3, loading4, loading5.
