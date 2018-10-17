@@ -80,10 +80,10 @@ zaś
 <div class="col-12"></div> - oznacza iż szerokość będzie wynosić 100% szerokości (głównego grid?)
 
 <------------------------------------------ loadings  -------------------------------------------------->
-To animacje, które "symulują"(?) wczytywanie danych.
+To animacje, które "symulują"(?) wczytywanie danych. Wystarczy do paragrafu lub diva dodać odpowiednią klasę.
 
 dostępne style:
-loading1, loading2, loading3, loading4, loading5.
+.loading1, .loading2, .loading3, .loading4, .loading5, .loadig6.
 
 <--------------------------------------- margins  --------------------------------------------------------------->
 Styl margins składa się z dwóch członów. Tekstowego i 4 cyfr. Tekstowa część oznacza, czego dotyczy styl. Cyfry oznaczają wielkość tego marginesu.

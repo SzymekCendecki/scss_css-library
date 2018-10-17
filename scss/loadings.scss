@@ -84,3 +84,44 @@
   0% {width: 0%; }
   100% { width: 100%; }
 }
+
+.loading6{
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		animation: load6 3s linear;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes load6 {
+	 0%{ background-color: green; }
+	 10%{ box-shadow: 10px 0 green, 20px 0 white, 30px 0 white, 40px 0 white, 50px 0 white,
+					  60px 0 white, 70px 0 white, 80px 0 white, 90px 0 white, 100px 0 white; }
+
+	 20%{ box-shadow: 10px 0 green, 20px 0 green, 30px 0 white, 40px 0 white, 50px 0 white,
+					  60px 0 white, 70px 0 white, 80px 0 white, 90px 0 white, 100px 0 white; }
+
+	 30%{ box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 white, 50px 0 white,
+					  60px 0 white, 70px 0 white, 80px 0 white, 90px 0 white, 100px 0 white; }
+
+	 40%{ box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 green, 50px 0 white,
+					  60px 0 white, 70px 0 white, 80px 0 white, 90px 0 white, 100px 0 white; }
+
+	 50%{ box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 green, 50px 0 green,
+					  60px 0 white, 70px 0 white, 80px 0 white, 90px 0 white, 100px 0 white; }
+
+	 60%{ box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 green, 50px 0 green,
+					  60px 0 green, 70px 0 white, 80px 0 white, 90px 0 white, 100px 0 white; }
+
+	 70%{ box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 green, 50px 0 green,
+					  60px 0 green, 70px 0 green, 80px 0 white, 90px 0 white, 100px 0 white; }
+
+	 80%{ box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 green, 50px 0 green,
+					  60px 0 green, 70px 0 green, 80px 0 green, 90px 0 white, 100px 0 white; }
+
+	 90%{ box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 green, 50px 0 green,
+					  60px 0 green, 70px 0 green, 80px 0 green, 90px 0 green, 100px 0 white; }
+
+	 100%{ background-color: green; box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 green, 50px 0 green,
+					  60px 0 green, 70px 0 green, 80px 0 green, 90px 0 green, 100px 0 green; }
+}
