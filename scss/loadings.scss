@@ -125,3 +125,46 @@
 	 100%{ background-color: green; box-shadow: 10px 0 green, 20px 0 green, 30px 0 green, 40px 0 green, 50px 0 green,
 					  60px 0 green, 70px 0 green, 80px 0 green, 90px 0 green, 100px 0 green; }
 }
+
+
+
+.loading7{
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		animation: load7 3s linear;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes load7 {
+	 0%{ background-color: white; }
+	 10%{ box-shadow: 75px 0 white, 150px 0 white, 225px 0 white, 300px 0 white, 160px 0 white,
+					  450px 0 white, 525px 0 white, 600px 0 white, 675px 0 white, 750px 0 white; }
+
+	 20%{ box-shadow: 75px 0 #dbead5, 150px 0 #dbead5, 225px 0 white, 300px 0 white, 375px 0 white,
+					  450px 0 white, 525px 0 white, 600px 0 white, 675px 0 white, 750px 0 white; }
+
+	 30%{ box-shadow: 75px 0 #b7d5ac, 150px 0 #b7d5ac, 225px 0 #b7d5ac, 300px 0 white, 375px 0 white,
+					  450px 0 white, 525px 0 white, 600px 0 white, 675px 0 white, 750px 0 white; }
+
+	 40%{ box-shadow: 75px 0 #93bf85, 150px 0 #93bf85, 225px 0 #93bf85, 300px 0 #93bf85, 375px 0 white,
+					  450px 0 white, 525px 0 white, 600px 0 white, 675px 0 white, 750px 0 white; }
+
+	 50%{ box-shadow: 75px 0 #6eaa5e, 150px 0 #6eaa5e, 225px 0 #6eaa5e, 300px 0 #6eaa5e, 375px 0 #6eaa5e,
+					  450px 0 white, 525px 0 white, 600px 0 white, 675px 0 white, 750px 0 white; }
+
+	 60%{ box-shadow: 75px 0 #469536, 150px 0 #469536, 225px 0 #469536, 300px 0 #469536, 375px 0 #468536,
+					 450px 0 #469536, 525px 0 white, 600px 0 white, 675px 0 white, 750px 0 white; }
+
+	 70%{ box-shadow: 75px 0 #008000, 150px 0 #008000, 225px 0 #008000, 300px 0 #008000, 375px 0 #008000,
+					 450px 0 #008000, 525px 0 #008000, 600px 0 white, 675px 0 white, 750px 0 white; }
+
+	 80%{ box-shadow: 75px 0 #0f6a08, 150px 0 #0f6a08, 225px 0 #0f6a08, 300px 0 #0f6a08, 375px 0 #0f6a08,
+					  450px 0 #0f6a08, 525px 0 #0f6a08, 600px 0 #0f6a08, 675px 0 white, 750px 0 white; }
+
+	 90%{ box-shadow: 75px 0 #14540d, 150px 0 #14540d, 225px 0 #14540d, 300px 0 #14540d, 375px 0 #14540d,
+					  450px 0 #14540d, 525px 0 #14540d, 600px 0 #14540d, 675px 0 #14540d, 750px 0 white; }
+
+	 100%{ background-color: #15400e; box-shadow: 75px 0 #15400e, 150px 0 #15400e, 225px 0 #15400e, 300px 0 #15400e, 375px 0 #15400e,
+					  450px 0 #15400e, 525px 0 #15400e, 600px 0 #15400e, 675px 0 #15400e, 750px 0 #15400e; }
+}
