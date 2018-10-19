@@ -168,3 +168,99 @@
 	 100%{ background-color: #15400e; box-shadow: 75px 0 #15400e, 150px 0 #15400e, 225px 0 #15400e, 300px 0 #15400e, 375px 0 #15400e,
 					  450px 0 #15400e, 525px 0 #15400e, 600px 0 #15400e, 675px 0 #15400e, 750px 0 #15400e; }
 }
+
+
+.loading8{
+		width: 0;
+		height: 20px;
+		transform: skewX(-40deg);
+		animation: load8 3s linear;
+		animation-fill-mode: forwards;
+	}
+	
+@keyframes load8{
+	0%{ background-color: red; box-shadow: 0 0 10px 5px red;}
+	100%{ width: 100%; background-color: green; box-shadow: 0 0 10px 5px green;}
+}
+
+.loading9{
+		width: 0;
+		height: 20px;
+		transform: skewX(40deg);
+		animation: load9 3s linear;
+		animation-fill-mode: forwards;
+	}
+	
+@keyframes load9{
+	0%{ background-color: red; box-shadow: 0 0 10px 5px red;}
+	100%{ width: 100%; background-color: green; box-shadow: 0 0 10px 5px green; transform: skewX(-40deg);}
+}
+	
+.loading10{
+	p:first-child{
+	width: 0;
+		height: 10px;
+		transform: skewX(40deg);
+		animation: load10 3s linear;
+		animation-fill-mode: forwards;
+	}
+	p:last-child{
+	width: 0;
+		height: 10px;
+		transform: skewX(-40deg);
+		animation: load10 3s linear;
+		animation-fill-mode: forwards;
+	}
+	}
+	
+@keyframes load10{
+	0%{ background-color: red; box-shadow: 0 0 10px 5px red;}
+	100%{ width: 100%; background-color: green; box-shadow: 0 0 10px 5px green;}
+}
+
+.loading10{
+	p{
+		width: 0;
+		height: 10px;
+		animation: load10 3s linear;
+		animation-fill-mode: forwards;
+	}
+	p:first-child{
+		transform: skewX(40deg);
+	}
+	p:last-child{
+		transform: skewX(-40deg);
+	}
+}
+	
+@keyframes load10{
+	0%{ background-color: red; box-shadow: 0 0 10px 5px red;}
+	100%{ width: 100%; background-color: green; box-shadow: 0 0 10px 5px green;}
+}
+
+.loading11{
+	p{
+		width: 0;
+		height: 6px;
+		animation: load11 3s linear;
+		animation-fill-mode: forwards;
+	}
+	p:first-child{
+		transform: skewX(40deg);
+		border-left: 2px solid black;
+		border-top: 2px solid black;
+		border-right: 2px solid black;
+	}
+	p:last-child{
+		transform: skewX(-40deg);
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+		border-right: 2px solid black;
+	}
+}
+	
+@keyframes load11{
+	0%{ background-color: red; }
+	100%{ width: 100%; background-color: green; }
+}
+

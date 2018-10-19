@@ -106,3 +106,6 @@ Dodano nowy styl dla animacji "ładowania": .loading6.
 
 18 października 2018 - wersja 0.0.37
 Dodano nowy styl dla animacji "ładowania": .loading7.
+
+19 października 2018 - wersja 0.0.038
+Dodano cztery nowe style dla animacji "ładowania": .loading8, .loading9, .loading10, .loading11.
