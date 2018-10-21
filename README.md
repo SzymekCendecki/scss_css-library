@@ -7,6 +7,7 @@
  
  
 helpful pages (from which code examples were adapted):
+
 https://3dtransforms.desandro.com/
 
 # polska wersja
@@ -16,6 +17,7 @@ https://3dtransforms.desandro.com/
  SCSS, CSS
  
  pomocne strony (z których zaadaptowane zostały przykłady kodu):
+ 
  https://3dtransforms.desandro.com/
 
 # documentation only in polish language for now
