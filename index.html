@@ -5,53 +5,6 @@
 	<meta charset="utf-8" />
 	<title>scss_css library</title>
 	<link rel="Stylesheet" type="text/css" href="css/main.css" />
-	
-	<style>
-	.scene {
-  width: 200px;
-  height: 200px;
-  margin: 80px;
-  perspective: 400px;
-}
-
-.cube {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  transform-style: preserve-3d;
-  transform: translateZ(-100px);
-  transition: transform 1s;
-}
-
-.cube.show-front  { transform: translateZ(-100px) rotateY(   0deg); }
-.cube.show-left   { transform: translateZ(-100px) rotateY(  90deg); }
-.cube.show-bottom { transform: translateZ(-100px) rotateX(  90deg); }
-
-
-.cube__face {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border: 2px solid black;
-  text-align: center;
-}
-
-.cube__face--front  { background: hsla(  0, 100%, 50%); }
-.cube__face--left   { background: hsla(180, 100%, 50%); }
-.cube__face--bottom { background: hsla(300, 100%, 50%); }
-
-.cube__face--front  { transform: rotateX(30deg) rotateY( 45deg) translateZ(100px); }
-.cube__face--left   { transform: rotateX(30deg) rotateY(-45deg) translateZ(100px); }
-.cube__face--bottom { transform: rotateX(-60deg) rotateZ(-45deg) translateZ(100px); }
-
-.baseBtn{
-	width: 40%;
-	height: 20%;
-	  margin-top: 40%;
-}
-
-
-	</style>
 </head>
 <body>
 
@@ -169,7 +122,8 @@
 				
 			<div class="borderBtnStyl9f margins0003p">
 				<button>.btnStyl9f</button>
-			</div>			
+			</div>
+
 		</div>
 
 <div class="margins4000p flex">
@@ -262,15 +216,7 @@
 			</div>
 			
 		</div>
-		
-		<div class="scene">
-			<div class="cube">
-				<div class="cube__face cube__face--front"><button class="baseBtn"></button></div>
-				<div class="cube__face cube__face--left"><button class="baseBtn"></button></div>
-				<div class="cube__face cube__face--bottom"><button class="baseBtn"></button></div>
-			</div>
-		</div>
-		
+	
 		</div>
 	<!-- koniec części głównej-->
 
@@ -281,7 +227,7 @@
 
 <!-- początek stopki-->
 	<footer class="col-12">
-		<div id="version">ver. 0.0.40</div>
+		<div id="version">ver. 0.0.41</div>
 	</footer>
 <!-- koniec stopki -->
 
