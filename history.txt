@@ -116,6 +116,8 @@ Dodano nowy styl dla przycisku: .btnStyl9f.
 21 października 2018 - wersja 0.0.40
 Rozpoczęto pracę nad przyciskami, które będą na widocznej części "pudełka".
 
-22 października 2018 - wersja 0.0.41 
+22 października 2018 - wersja 0.0.41
 Usunięto pomysł na umieszczeniu na "pudełku" przycisków.
 
+23 października 2018 - wersja 0.0.42
+Rozpoczcie pracy nad przyciskami - cechy, ekwipunek, umiejętności, zadania - do gry Audaces - powerfull 

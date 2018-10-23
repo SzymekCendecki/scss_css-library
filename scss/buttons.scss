@@ -429,6 +429,49 @@
   }
 }
 
+
+
+	.one, .two, .three, .four{
+		width: 45%;
+    height: 25px;
+    margin: 5px 0 0 4px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    background-color: #906030;
+    border-radius: 10px;
+    box-shadow: -1px 1px 0 #906030, -2px 2px 0 #906030,
+                -3px 3px 0 #906030, -4px 4px 0 #906030,
+                -5px 5px 0 #906030;
+	}
+
+.one:active, .two:active, .three:active, .four:active{
+    animation: anim8Button 0.25s linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes anim8Button {
+    0% { box-shadow: 0 0 7px black;  margin: 5px 0 0 4px; box-shadow: -1px 1px 0 #906030, -2px 2px 0 #906030,
+                -3px 3px 0 #906030, -4px 4px 0 #906030, -5px 5px 0 #906030;}
+    50% { box-shadow: 0 0 0 black; box-shadow: -1px 1px 0 #906030, -2px 2px 0 #906030; }
+    100% { box-shadow: inset 0 0 10px 0 black; background-color: #906030;   margin: 10px 0 0 2px;}
+  }
+
+	button:focus{
+		outline: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
  //style po aktywowaniu przycisku stylu .btnStyl1, .btnStyl1a, .btnStyl1b
  .btnStyl1:active, .btnStyl1a:active, .btnStyl1b:active, .btnStyl1c:active, .btnStyl2:active, .btnStyl2a:active, .btnStyl2b:active, .btnStyl2c:active{
    transform: translate(0, 4px) skew(20deg);
