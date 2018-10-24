@@ -120,4 +120,7 @@ Rozpoczęto pracę nad przyciskami, które będą na widocznej części "pudełk
 Usunięto pomysł na umieszczeniu na "pudełku" przycisków.
 
 23 października 2018 - wersja 0.0.42
-Rozpoczcie pracy nad przyciskami - cechy, ekwipunek, umiejętności, zadania - do gry Audaces - powerfull 
+Rozpoczcie pracy nad przyciskami - cechy, ekwipunek, umiejętności, zadania - do gry Audaces - powerfull.
+
+24 października 2018 - wersja 0.0.43
+Poprawiono "działanie" "animacji" przycisków cechy, ekwipunek, umiejętności, zadania oraz utworzono przycisk info - do gry Audaces - powerfull.

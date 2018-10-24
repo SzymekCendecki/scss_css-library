@@ -1,4 +1,4 @@
-# scss_css-library ver. 0.0.42
+# scss_css-library ver. 0.0.43
 
 # english version
  This library is created for the needs of the Unfaithful Dogs. Inspired by various Bootstrap libraries similar to it.

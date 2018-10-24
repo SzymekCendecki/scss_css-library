@@ -431,6 +431,11 @@
 
 
 
+.divOne, .divTwo, .divThree, .divFour, .divFive{
+  height: 25px;
+}
+
+
 	.one, .two, .three, .four{
 		width: 45%;
     height: 25px;
@@ -446,11 +451,11 @@
 	}
 
 .one:active, .two:active, .three:active, .four:active{
-    animation: anim8Button 0.25s linear;
+    animation: oneAnim 0.25s linear;
     animation-fill-mode: forwards;
   }
 
-  @keyframes anim8Button {
+  @keyframes oneAnim {
     0% { box-shadow: 0 0 7px black;  margin: 5px 0 0 4px; box-shadow: -1px 1px 0 #906030, -2px 2px 0 #906030,
                 -3px 3px 0 #906030, -4px 4px 0 #906030, -5px 5px 0 #906030;}
     50% { box-shadow: 0 0 0 black; box-shadow: -1px 1px 0 #906030, -2px 2px 0 #906030; }
@@ -463,10 +468,32 @@
 
 
 
+  .info{
+		width: 40px;
+    height: 40px;
+    margin: 5px 0 0 14%;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    background-color: #0000ff;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: -1px 1px 0 #0000ff, -2px 2px 0 #0000ff,
+                -3px 3px 0 #0000ff, -4px 4px 0 #0000ff;
+	}
 
 
+  .info:active{
+      animation: infoAnim 0.25s linear;
+      animation-fill-mode: forwards;
+    }
 
-
+    @keyframes infoAnim {
+      0% { box-shadow: 0 0 7px black;  margin:  5px 0 0 14%; box-shadow: -1px 1px 0 #0000ff, -2px 2px 0 #0000ff,
+                  -3px 3px 0 #0000ff, -4px 4px 0 #0000ff, -5px 5px 0 #0000ff;}
+      50% { box-shadow: 0 0 0 black; box-shadow: -1px 1px 0 #0000ff, -2px 2px 0 #0000ff; }
+      100% { box-shadow: inset 0 0 10px 0 black; background-color: #4040ff; margin:  10px 0 0 12%; border: 2px solid black;}
+    }
 
 
 
