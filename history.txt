@@ -124,3 +124,6 @@ Rozpoczcie pracy nad przyciskami - cechy, ekwipunek, umiejętności, zadania - d
 
 24 października 2018 - wersja 0.0.43
 Poprawiono "działanie" "animacji" przycisków cechy, ekwipunek, umiejętności, zadania oraz utworzono przycisk info - do gry Audaces - powerfull.
+
+25 października 2018 - wersja 0.044
+Dodano dwa przyciski dla gry Audaces - powerfull: rozejrzyj się oraz wyjdź.
