@@ -125,5 +125,9 @@ Rozpoczcie pracy nad przyciskami - cechy, ekwipunek, umiejętności, zadania - d
 24 października 2018 - wersja 0.0.43
 Poprawiono "działanie" "animacji" przycisków cechy, ekwipunek, umiejętności, zadania oraz utworzono przycisk info - do gry Audaces - powerfull.
 
-25 października 2018 - wersja 0.044
+25 października 2018 - wersja 0.0.44
 Dodano dwa przyciski dla gry Audaces - powerfull: rozejrzyj się oraz wyjdź.
+
+26 października 2018 - wersja 0.0.45
+Dodano nowe style dla margins: .margins0006p, .margins0007p, .margins0008p, .margins6000p, .margins7000p, .margins8000p, margins9000p.
+	Dodano przyciski dla gry Audaces - powerfull: wejdź oraz pomiń
