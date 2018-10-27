@@ -135,3 +135,4 @@ Dodano nowe style dla margins: .margins0006p, .margins0007p, .margins0008p, .mar
 27 października 2018 - wersja 0.0.46
 Dodano przycisk "przeszukaj" dla gry Audaces - powerfull.
 	Utworzono logo pegi 21.
+Utworzono animowany napis "GAME OVER".
