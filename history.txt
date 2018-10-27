@@ -130,4 +130,8 @@ Dodano dwa przyciski dla gry Audaces - powerfull: rozejrzyj się oraz wyjdź.
 
 26 października 2018 - wersja 0.0.45
 Dodano nowe style dla margins: .margins0006p, .margins0007p, .margins0008p, .margins6000p, .margins7000p, .margins8000p, margins9000p.
-	Dodano przyciski dla gry Audaces - powerfull: wejdź oraz pomiń
+	Dodano przyciski dla gry Audaces - powerfull: wejdź oraz pomiń.
+
+27 października 2018 - wersja 0.0.46
+Dodano przycisk "przeszukaj" dla gry Audaces - powerfull.
+	Utworzono logo pegi 21.
