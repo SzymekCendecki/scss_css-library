@@ -139,3 +139,7 @@ Utworzono animowany napis "GAME OVER".
 
 28 października 2018 - wersja 0.0.47
 Dodano dwie kolejne animacje napisu "GAME OVER".
+
+29 października 2018 - wersja 0.0.48
+Dodano kolejny napis "GAME OVER" - wygięty w łuk.
+	Dodano dwa przyciski dla Audaces - powerfull: kup i sprzedaj.

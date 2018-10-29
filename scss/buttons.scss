@@ -431,7 +431,7 @@
 
 
 
-.divOne, .divTwo, .divThree, .divFour, .divFive, .divSix, .divSeven, .divEight,.divNine, .divTen{
+.divOne, .divTwo, .divThree, .divFour, .divFive, .divSix, .divSeven, .divEight,.divNine, .divTen, .divEleven, .divTwelve{
   height: 25px;
 }
 
@@ -614,6 +614,58 @@
 
 
 
+            .buy{
+              width: 80px;
+              height: 25px;
+              margin: 5px 0 0 4px;
+              color: white;
+              font-weight: bold;
+              text-shadow: 1px 1px black;
+              background-color: rgba(46,111,46,1);
+              border: 2px solid white;
+              border-radius: 10px / 50%;
+              box-shadow: -1px 1px 0 rgba(46,111,46,1), -2px 2px 0 rgba(46,111,46,1),
+                          -3px 3px 0 rgba(46,111,46,1), -4px 4px 0 rgba(46,111,46,1);
+            }
+
+
+            .buy:active{
+                animation: buyAnim 0.25s linear;
+                animation-fill-mode: forwards;
+              }
+
+              @keyframes buyAnim {
+                0% { box-shadow: 0 0 7px black;  margin:  5px 0 0 4px; box-shadow: -1px 1px 0 rgba(46,111,46,1), -2px 2px 0 rgba(46,111,46,1), -3px 3px 0 rgba(46,111,46,1), -4px 4px 0 rgba(46,111,46,1), -5px 5px 0 rgba(46,111,46,1);}
+                50% { box-shadow: 0 0 0 black; box-shadow: -1px 1px 0 rgba(46,111,46,1), -2px 2px 0 rgba(46,111,46,1); }
+                100% { box-shadow: inset 0 0 10px 0 black; background-color: rgba(0,255,0,1); margin:  10px 0 0 2px; }
+              }
+
+
+              .sell{
+                width: 80px;
+                height: 25px;
+                margin: 5px 0 0 4px;
+                color: white;
+                font-weight: bold;
+                text-shadow: 1px 1px black;
+                background-color: rgba(226,18,21,1);
+                border: 2px solid white;
+                border-radius: 10px / 50%;
+                box-shadow: -1px 1px 0 rgba(226,18,21,1), -2px 2px 0 rgba(226,18,21,1),
+                            -3px 3px 0 rgba(226,18,21,1), -4px 4px 0 rgba(226,18,21,1);
+              }
+
+
+              .sell:active{
+                  animation: sellAnim 0.25s linear;
+                  animation-fill-mode: forwards;
+                }
+
+                @keyframes sellAnim {
+                  0% { box-shadow: 0 0 7px black;  margin:  5px 0 0 4px; box-shadow: -1px 1px 0 rgba(226,18,21,1), -2px 2px 0 rgba(226,18,21,1), -3px 3px 0 rgba(226,18,21,1), -4px 4px 0 rgba(226,18,21,1), -5px 5px 0 rgba(226,18,21,1);}
+                  50% { box-shadow: 0 0 0 black; box-shadow: -1px 1px 0 rgba(226,18,21,1), -2px 2px 0 rgba(226,18,21,1); }
+                  100% { box-shadow: inset 0 0 10px 0 black; background-color: rgba(248,87,90,1); margin:  10px 0 0 2px; }
+                }
 
 
 

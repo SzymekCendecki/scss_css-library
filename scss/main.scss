@@ -107,7 +107,7 @@ html, body { width: 100%; height: 100%; }
   display: block;
   width: 50%/8;
   animation: animLetter 3s infinite;
-   animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 .gameOver3{
@@ -127,5 +127,78 @@ html, body { width: 100%; height: 100%; }
   span.spanSix{ @include animGameOver; animation-delay: 2.5s; }
   span.spanSeven{ @include animGameOver; animation-delay: 3s; }
   span.spanEight{ @include animGameOver; animation-delay: 3.5s; }
+}
 
+
+.gameOver4{
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 550%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+
+  @mixin animGameOver2{
+    display: block;
+    width: 50%/8;
+    animation: animLetter2 3s infinite;
+    animation-direction: alternate;
+  }
+
+  span.spanOne{ @include animGameOver2; }
+  span.spanTwo{ @include animGameOver2; animation-delay: 0.5s;  }
+  span.spanThree{ @include animGameOver2; animation-delay: 1s; }
+  span.spanFour{ @include animGameOver2; animation-delay: 1.5s; }
+  span.spanFive{ @include animGameOver2; animation-delay: 2s; }
+  span.spanSix{ @include animGameOver2; animation-delay: 2.5s; }
+  span.spanSeven{ @include animGameOver2; animation-delay: 3s; }
+  span.spanEight{ @include animGameOver2; animation-delay: 3.5s; }
+
+  @keyframes animLetter2{
+    0%{ opacity: 0; }
+    50%{ opacity: 1; }
+    100%{ opacity: 0; }
+  }
+}
+
+.gameOver5{
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 550%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+
+  .spanOne{
+    transform: rotateZ(-30deg);
+  }
+  .spanTwo{
+    transform: rotateZ(-25deg);
+    margin-top: -8%;
+  }
+
+  .spanThree{
+    transform: rotateZ(-10deg);
+    margin-top: -13%;
+  }
+
+  .spanFour, .spanFive{
+    margin-top: -15%;
+  }
+
+  .spanSix{
+    transform: rotateZ(10deg);
+    margin-top: -13%;
+  }
+
+  .spanSeven{
+    transform: rotateZ(25deg);
+    margin-top: -8%;
+  }
+
+  .spanEight{
+    transform: rotateZ(30deg);
+  }
 }
