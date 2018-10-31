@@ -146,3 +146,8 @@ Dodano kolejny napis "GAME OVER" - wygięty w łuk.
 
 30 października 2018 - wersja 0.0.49
 Dodanoo przycisk dla Audaces - powerfull: porozmawiaj oraz ukryj się.
+
+31 października 2018 - wersja 0.0.50
+Dodano bibliotekę jq, która będzie potrzebna do dodatkowego ulepszenia biblioteki.
+	Dodano nowy przycisk - utworzony został do testów zamiany klas dla tego przycisku - po wciśnięciu przycisk "animuje" się i pozostaje "wciśnięty". Po ponownym kliknięciu przycisk "animuje" się do pierwotnego kształtu.
+Dodano funkcję, która zmienia style css.

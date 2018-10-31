@@ -722,6 +722,54 @@
                     }
 
 
+                    .xxx{
+                      height: 30px;
+
+                      .buttonJQtoggleMain{
+                        width: 80px;
+                        height: 25px;
+                        margin: 5px 0 0 4px;
+                        color: white;
+                        font-weight: bold;
+                        text-shadow: 1px 1px black;
+                        background-color: rgba(88,90,119,1);
+                        border: 2px solid white;
+                        border-radius: 10px / 50%;
+                        animation: change 0.25s linear;
+                        animation-fill-mode: forwards;
+                      }
+
+                      @keyframes change {
+                        0% { box-shadow: inset 0 0 10px 0 black; background-color: rgba(148,150,176,1); margin:  10px 0 0 2px; }
+
+                        100% {   box-shadow: -1px 1px 0 rgba(88,90,119,1), -2px 2px 0 rgba(88,90,119,1),
+                                      -3px 3px 0 rgba(88,90,119,1), -4px 4px 0 rgba(88,90,119,1); }
+                      }
+
+                      .buttonJQtoggleNext{
+                        width: 80px;
+                        height: 25px;
+                        margin: 5px 0 0 4px;
+                        color: white;
+                        font-weight: bold;
+                        text-shadow: 1px 1px black;
+                        background-color: rgba(88,90,119,1);
+                        border: 2px solid white;
+                        border-radius: 10px / 50%;
+                        animation: change1 0.25s linear;
+                        animation-fill-mode: forwards;
+                      }
+
+                      @keyframes change1 {
+                        0% { box-shadow: 0 0 7px black;  margin:  5px 0 0 4px; box-shadow: -1px 1px 0 rgba(88,90,119,1), -2px 2px 0 rgba(88,90,119,1), -3px 3px 0 rgba(88,90,119,1), -4px 4px 0 rgba(88,90,119,1), -5px 5px 0 rgba(88,90,119,1);}
+                        50% { box-shadow: 0 0 0 black; box-shadow: -1px 1px 0 rgba(88,90,119,1), -2px 2px 0 rgba(88,90,119,1); }
+                        100% { box-shadow: inset 0 0 10px 0 black; background-color: rgba(148,150,176,1); margin:  10px 0 0 2px; }
+                      }
+                    }
+
+
+
+
 
  //style po aktywowaniu przycisku stylu .btnStyl1, .btnStyl1a, .btnStyl1b
  .btnStyl1:active, .btnStyl1a:active, .btnStyl1b:active, .btnStyl1c:active, .btnStyl2:active, .btnStyl2a:active, .btnStyl2b:active, .btnStyl2c:active{
