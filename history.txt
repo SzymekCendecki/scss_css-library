@@ -151,3 +151,7 @@ Dodanoo przycisk dla Audaces - powerfull: porozmawiaj oraz ukryj się.
 Dodano bibliotekę jq, która będzie potrzebna do dodatkowego ulepszenia biblioteki.
 	Dodano nowy przycisk - utworzony został do testów zamiany klas dla tego przycisku - po wciśnięciu przycisk "animuje" się i pozostaje "wciśnięty". Po ponownym kliknięciu przycisk "animuje" się do pierwotnego kształtu.
 Dodano funkcję, która zmienia style css.
+
+1 listopada 2018 0 - wersja 0.0.51
+Utworzono plik packagw.json.
+	Dodano dwa, animowane przyciski.

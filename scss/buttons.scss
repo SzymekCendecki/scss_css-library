@@ -768,7 +768,50 @@
                     }
 
 
+					
+					
+		              .yyyy{
+                        width: 80px;
+                        height: 25px;
+                        margin: 5px 0 0 4px;
+                        color: white;
+                        font-weight: bold;
+                        text-shadow: 1px 1px black;
+                        border: 2px solid black;
+                        border-radius: 10px / 50%;
+                        animation: change2 1s linear infinite;
+					box-shadow: -1px 1px 0 rgba(0,0,0,1), -2px 2px 0 rgba(0,0,0,1),
+                                      -3px 3px 0 rgba(0,0,0,1), -4px 4px 0 rgba(0,0,0,1);	
+                       }
 
+					   @keyframes change2{
+						0%{ background: linear-gradient(black, black, white); }
+						50%{ background: linear-gradient(black, white, black); }
+						100%{ background: linear-gradient(white, black, black); }
+					   }
+					   
+					   
+					   .zzzz{
+                        width: 35px;
+                        height: 35px;
+                        margin: 5px 0 0 4px;
+                        color: white;
+                        font-weight: bold;
+                        text-shadow: 1px 1px black;
+                        border: 2px solid black;
+                        border-radius: 50%;
+                        animation: change4 3s linear infinite;
+					box-shadow: -1px 1px 0 rgba(255,0,0,1), -2px 2px 0 rgba(255,0,0,1),
+                                      -3px 3px 0 rgba(255,0,0,1), -4px 4px 0 rgba(255,0,0,1);	
+                       }
+
+					   @keyframes change4{
+						0%{ background-color: rgba(255,0,0,1); box-shadow: -1px 1px 0 rgba(255,0,0,1), -2px 2px 0 rgba(255,0,0,1),
+                                      -3px 3px 0 rgba(255,0,0,1), -4px 4px 0 rgba(255,0,0,1);}
+						
+						100%{ background-color: rgba(255,150,100,1); box-shadow: -1px 1px 0 rgba(255,150,100,1), -2px 2px 0 rgba(255,150,100,1),
+                                      -3px 3px 0 rgba(255,150,100,1), -4px 4px 0 rgba(255,150,100,1);}
+					   }
 
 
  //style po aktywowaniu przycisku stylu .btnStyl1, .btnStyl1a, .btnStyl1b
