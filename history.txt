@@ -152,6 +152,9 @@ Dodano bibliotekę jq, która będzie potrzebna do dodatkowego ulepszenia biblio
 	Dodano nowy przycisk - utworzony został do testów zamiany klas dla tego przycisku - po wciśnięciu przycisk "animuje" się i pozostaje "wciśnięty". Po ponownym kliknięciu przycisk "animuje" się do pierwotnego kształtu.
 Dodano funkcję, która zmienia style css.
 
-1 listopada 2018 0 - wersja 0.0.51
-Utworzono plik packagw.json.
+1 listopada 2018 - wersja 0.0.51
+Utworzono plik package.json.
 	Dodano dwa, animowane przyciski.
+	
+2 listopada 2018 - wersja 0.0.52
+Dodano dwie animacje dla napisu "GAME OVER".
