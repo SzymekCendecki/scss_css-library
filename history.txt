@@ -158,3 +158,6 @@ Utworzono plik package.json.
 	
 2 listopada 2018 - wersja 0.0.52
 Dodano dwie animacje dla napisu "GAME OVER".
+
+3 listopada 2018 - wersja 0.0.53
+Testowanie animacji w 3D.
