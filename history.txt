@@ -155,9 +155,12 @@ Dodano funkcję, która zmienia style css.
 1 listopada 2018 - wersja 0.0.51
 Utworzono plik package.json.
 	Dodano dwa, animowane przyciski.
-	
+
 2 listopada 2018 - wersja 0.0.52
 Dodano dwie animacje dla napisu "GAME OVER".
 
 3 listopada 2018 - wersja 0.0.53
 Testowanie animacji w 3D.
+
+4 listopada 2018 - wersja 0.0.54
+Dodanie animacji dwóch napisów "GAME OVER" - pierwszy game over pojawia się (opacity) oraz wszystkie litery obracają się, drugi game over pojawia się tylko (opacity), z pewnym opóźnieniem.
