@@ -164,3 +164,7 @@ Testowanie animacji w 3D.
 
 4 listopada 2018 - wersja 0.0.54
 Dodanie animacji dwóch napisów "GAME OVER" - pierwszy game over pojawia się (opacity) oraz wszystkie litery obracają się, drugi game over pojawia się tylko (opacity), z pewnym opóźnieniem.
+
+5 listopada 2018 - wersja 0.0.55
+Dodanie napisu "GAME OVER II" z użyciem text-stroke.
+	Dodanie animacji "GAME OVER II" z wykorzystaniem blura
