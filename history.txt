@@ -167,4 +167,7 @@ Dodanie animacji dwóch napisów "GAME OVER" - pierwszy game over pojawia się (
 
 5 listopada 2018 - wersja 0.0.55
 Dodanie napisu "GAME OVER II" z użyciem text-stroke.
-	Dodanie animacji "GAME OVER II" z wykorzystaniem blura
+	Dodanie animacji "GAME OVER II" z wykorzystaniem blura.
+
+6 listopada 2018 - wersja 0.0.56
+Dodano nowy styl (animacja) dla "GAME OVER II" - przekształca się z "wciśniętego" tekstu na "normalny".
