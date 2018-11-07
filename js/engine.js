@@ -84,6 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
   $(".buttonJQtoggleMain").click(function () {
     $(".buttonJQtoggleMain").toggleClass("buttonJQtoggleNext");
   });
+
+  $("#div1").change(function () {
+    alert("The text has been changed.");
+  });
 }); //end DOMContentLoaded
 
 /***/ })

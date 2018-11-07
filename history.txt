@@ -171,3 +171,6 @@ Dodanie napisu "GAME OVER II" z użyciem text-stroke.
 
 6 listopada 2018 - wersja 0.0.56
 Dodano nowy styl (animacja) dla "GAME OVER II" - przekształca się z "wciśniętego" tekstu na "normalny".
+
+7 listopada 2018 - wersja 0.0.57
+Testy drag and drop.
