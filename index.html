@@ -391,7 +391,7 @@
 
 <div class="ghgh margins3000p">
 <script>
-//drag and drop     
+//drag and drop
 
      function allowDrop(ev) {
     ev.preventDefault();
@@ -401,16 +401,26 @@ function drag(ev) {
     ev.dataTransfer.setData("Text", ev.target.id);
 }
 
-function drop(ev) {
+function drop1(ev) {
     var data = ev.dataTransfer.getData("Text");
     ev.target.appendChild(document.getElementById(data));
     ev.preventDefault();
+		let data1 = $("#div1").text();
+		console.log("pierwszy div", data1);
+}
+
+function drop2(ev) {
+    var data = ev.dataTransfer.getData("Text");
+    ev.target.appendChild(document.getElementById(data));
+    ev.preventDefault();
+		let data2 = $("#div2").text();
+		console.log("drugi div", data2);
 }
 
 </script>
-		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div id="div1" ondrop="drop1(event)" ondragover="allowDrop(event)"></div>
 		<br>
-		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div id="div2" ondrop="drop2(event)" ondragover="allowDrop(event)"></div>
 		<br>
 		<p id="drag1" draggable="true" ondragstart="drag(event)">This is a draggable paragraph. Drag this element into the rectangle.</p>
 		</div>
@@ -425,7 +435,7 @@ function drop(ev) {
 
 <!-- początek stopki-->
 	<footer class="col-12">
-		<div id="version">ver. 0.0.57</div>
+		<div id="version">ver. 0.0.58</div>
 	</footer>
 <!-- koniec stopki -->
 
