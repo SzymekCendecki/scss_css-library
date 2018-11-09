@@ -415,17 +415,25 @@ function drop2(ev) {
     ev.preventDefault();
 		let data2 = $("#div2").text();
 		console.log("drugi div", data2);
+		let allP2 = document.querySelectorAll("#div2 p");
+		console.log(allP2, allP2.length);
 }
 
 </script>
-		<div id="div1" ondrop="drop1(event)" ondragover="allowDrop(event)"></div>
+		<div id="div1" ondrop="drop1(event)" ondragover="allowDrop(event)">
+			<p id="drag1" draggable="true" ondragstart="drag(event)">This is a draggable paragraph. Drag this element into the rectangle.</p>
+			<p id="drag1" draggable="true" ondragstart="drag(event)">This is a draggable paragraph. Drag this element into the rectangle.</p>
+			<p id="drag1" draggable="true" ondragstart="drag(event)">This is a draggable paragraph. Drag this element into the rectangle.</p>
+		</div>
 		<br>
 		<div id="div2" ondrop="drop2(event)" ondragover="allowDrop(event)"></div>
 		<br>
-		<p id="drag1" draggable="true" ondragstart="drag(event)">This is a draggable paragraph. Drag this element into the rectangle.</p>
+
 		</div>
 
-	</div>
+
+
+</div>
 	<!-- koniec części głównej-->
 
 	<!-- komunikaty/alerty -->
@@ -435,7 +443,7 @@ function drop2(ev) {
 
 <!-- początek stopki-->
 	<footer class="col-12">
-		<div id="version">ver. 0.0.58</div>
+		<div id="version">ver. 0.0.59</div>
 	</footer>
 <!-- koniec stopki -->
 

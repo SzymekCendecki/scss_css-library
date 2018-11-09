@@ -177,3 +177,6 @@ Testy drag and drop cz I.
 
 8 listopada 2018 - wersja 0.0.58
 Testy drag and drop cz. II.
+
+9 listopada 2018 - wersja 0.0.59
+Testy drag and drop cz. III.
