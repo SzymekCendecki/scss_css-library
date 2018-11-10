@@ -180,3 +180,6 @@ Testy drag and drop cz. II.
 
 9 listopada 2018 - wersja 0.0.59
 Testy drag and drop cz. III.
+
+10 listopada 2018 - wersja 0.0.60
+Testy nad rozwijalnym menu.

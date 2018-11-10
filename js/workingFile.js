@@ -5,8 +5,17 @@ document.addEventListener("DOMContentLoaded", () => { //start DOMContentLoaded
          $(".buttonJQtoggleMain").toggleClass("buttonJQtoggleNext");
      });
 
-$( "#div1" ).change(function(){
-        alert("The text has been changed.");
-    });
 
+     $("#flip").on("click", function(){
+          let text = $("#flip").text();
+
+          if( text == "down"){
+            $("#flip").text("up");
+            $("#panel").slideDown("slow");
+          }else{
+              $("#flip").text("down");
+              $("#panel").slideUp("slow");
+          }
+          console.log(text);
+      });
 });//end DOMContentLoaded
