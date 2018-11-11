@@ -410,15 +410,48 @@ html, body { width: 100%; height: 100%; }
   }
 }
 
-#panel, #flip {
+#mainDownUp{
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+}
+
+#panel, #flip, #panel2, #flip2 {
     padding: 5px;
     text-align: center;
     background-color: red;
     border: solid 1px green;
 }
 
-#panel {
+#flip, #flip2{
+    width: 49%;
+}
+
+#panel, #panel2{
+    width: 20.5%;
     padding: 50px;
-    display: none;
+    position: absolute;
     background-color: blue;
+    z-index: 5;
+}
+
+#mainDownUp2{
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+}
+
+#panel3, #flip3{
+  padding: 5px;
+  text-align: center;
+  background-color: red;
+  border: solid 1px green;
+}
+
+#panel3{
+  width: 20.5%;
+  padding: 50px;
+  position: absolute;
+  background-color: blue;
+  z-index: 5;
 }

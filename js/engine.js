@@ -78,25 +78,53 @@ module.exports = __webpack_require__(1);
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  //start DOMContentLoaded
-  console.log("NIEWIERNE PSY RULEZ!!!!");
+    //start DOMContentLoaded
+    console.log("NIEWIERNE PSY RULEZ!!!!");
 
-  $(".buttonJQtoggleMain").click(function () {
-    $(".buttonJQtoggleMain").toggleClass("buttonJQtoggleNext");
-  });
+    $(".buttonJQtoggleMain").click(function () {
+        $(".buttonJQtoggleMain").toggleClass("buttonJQtoggleNext");
+    });
 
-  $("#flip").on("click", function () {
-    var text = $("#flip").text();
+    $("#panel, #panel2, #panel3").css("display", "none");
 
-    if (text == "down") {
-      $("#flip").text("up");
-      $("#panel").slideDown("slow");
-    } else {
-      $("#flip").text("down");
-      $("#panel").slideUp("slow");
-    }
-    console.log(text);
-  });
+    $("#flip").on("click", function () {
+        var text = $("#flip").text();
+
+        if (text == "down") {
+            $("#flip").text("up");
+            $("#panel").slideDown("slow");
+        } else {
+            $("#flip").text("down");
+            $("#panel").slideUp("slow");
+        }
+        console.log(text);
+    });
+
+    $("#flip2").on("click", function () {
+        var text2 = $("#flip2").text();
+
+        if (text2 == "down") {
+            $("#flip2").text("up");
+            $("#panel2").slideDown("slow");
+        } else {
+            $("#flip2").text("down");
+            $("#panel2").slideUp("slow");
+        }
+        console.log(text2);
+    });
+
+    $("#flip3").on("click", function () {
+        var text2 = $("#flip3").text();
+
+        if (text2 == "down") {
+            $("#flip3").text("up");
+            $("#panel3").slideDown("slow");
+        } else {
+            $("#flip3").text("down");
+            $("#panel3").slideUp("slow");
+        }
+        console.log(text2);
+    });
 }); //end DOMContentLoaded
 
 /***/ })
