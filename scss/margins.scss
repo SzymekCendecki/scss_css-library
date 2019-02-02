@@ -1,30 +1,60 @@
 //margin-left in percent
 .margins0003p{ margin: 0 0 0 3%; }
-.margins0004p{ margin-left: 4%; }
-.margins0005p{ margin-left: 5%; }
-.margins0006p{ margin-left: 6%; }
-.margins0007p{ margin-left: 7%; }
-.margins0008p{ margin-left: 8%; }
-.margins000_10p{ margin-left: 10%; }
-.margins000_15p{ margin-left: 15%; }
-.margins000_25p{ margin-left: 25%; }
-.margins000_50p{ margin-left: 50%; }
-.margins000_75p{ margin-left: 75%; }
-.margins000_90p{ margin-left: 90%; }
-.margins000_100p{ margin-left: 100%; }
+.margins0004p{ margin: 0 0 0 4%; }
+.margins0005p{ margin: 0 0 0 5%; }
+.margins0006p{ margin: 0 0 0 6%; }
+.margins0007p{ margin: 0 0 0 7%; }
+.margins0008p{ margin: 0 0 0 8%; }
+.margins000_10p{ margin: 0 0 0 10%; }
+.margins000_15p{ margin: 0 0 0 15%; }
+.margins000_25p{ margin: 0 0 0 25%; }
+.margins000_50p{ margin: 0 0 0 50%; }
+.margins000_75p{ margin: 0 0 0 75%; }
+.margins000_90p{ margin: 0 0 0 90%; }
+.margins000_100p{ margin: 0 0 0 100%; }
+
+//margin-right in percent
+.margins0300p{ margin: 0 3% 0 0; }
+.margins0400p{ margin: 0 4% 0 0; }
+.margins0500p{ margin: 0 5% 0 0; }
+.margins0600p{ margin: 0 6% 0 0; }
+.margins0700p{ margin: 0 7% 0 0; }
+.margins0800p{ margin: 0 8% 0 0; }
+.margins0_10_00p{ margin: 0 10% 0 0; }
+.margins0_15_00p{ margin: 0 15% 0 0; }
+.margins0_25_00p{ margin: 0 25% 0 0; }
+.margins0_50_00p{ margin: 0 50% 0 0; }
+.margins0_75_00p{ margin: 0 75% 0 0; }
+.margins0_90_00p{ margin: 0 90% 0 0; }
+.margins0_100_00p{ margin: 0 100% 0 0; }
+
+//margin-bottom in percent
+.margins0030p{ margin: 0 0 3% 0; }
+.margins0040p{ margin: 0 0 4% 0; }
+.margins0050p{ margin: 0 0 5% 0; }
+.margins0060p{ margin: 0 0 6% 0; }
+.margins0070p{ margin: 0 0 7% 0; }
+.margins0080p{ margin: 0 0 8% 0; }
+.margins00_10_0{ margin: 0 0 10% 0; }
+.margins00_15_0{ margin: 0 0 15% 0; }
+.margins00_25_0{ margin: 0 0 25% 0; }
+.margins00_50_0{ margin: 0 0 50% 0; }
+.margins00_75_0{ margin: 0 0 75% 0; }
+.margins00_90_0{ margin: 0 0 90% 0; }
+.margins00_100_0{ margin: 0 0 100% 0; }
 
 //margin-top in percent
-.margins1000p{ margin-top: 1%; }
-.margins2000p{ margin-top: 2%; }
-.margins3000p{ margin-top: 3%; }
-.margins4000p{ margin-top: 4%; }
-.margins5000p{ margin-top: 5%; }
-.margins6000p{ margin-top: 6%; }
-.margins7000p{ margin-top: 7%; }
-.margins8000p{ margin-top: 8%; }
-.margins9000p{ margin-top: 9%; }
-.margins10_000p{ margin-top: 10%; }
-.margins15_000p{ margin-top: 15%; }
+.margins1000p{ margin: 1% 0 0 0; }
+.margins2000p{ margin: 2% 0 0 0; }
+.margins3000p{ margin: 3% 0 0 0;}
+.margins4000p{ margin: 4% 0 0 0; }
+.margins5000p{ margin: 5% 0 0 0; }
+.margins6000p{ margin: 6% 0 0 0; }
+.margins7000p{ margin: 7% 0 0 0; }
+.margins8000p{ margin: 8% 0 0 0; }
+.margins9000p{ margin: 9% 0 0 0; }
+.margins10_000p{ margin: 10% 0 0 0; }
+.margins15_000p{ margin: 15% 0 0 0; }
 
 //margin-top in vh
-.marginTop4vh{ margin-top: 4vh; }
+.marginTop4vh{ margin: 4vh 0 0 0; }

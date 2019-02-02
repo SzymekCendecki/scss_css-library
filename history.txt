@@ -186,3 +186,6 @@ Testy nad rozwijalnym menu.
 
 11 listopada 2018 - wersja 0.0.61
 Testy nad rozwijalnym menu cz. II.
+
+2 luty 2019 wersja 0.0.62
+Dodano nowe font-size (dla rem i %) oraz nowe margin.
